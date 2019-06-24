@@ -4,7 +4,7 @@ services:
   - docker:dind
 
 variables:
-  SERVICE_NAME: pto-bdpn-service
+  SERVICE_NAME: ewallet-testing
   SERVICE_PORT: 8047
 #  DOCKER_HOST: "tcp://172.28.16.3:2375"
 
@@ -21,7 +21,7 @@ code-analysis:
 #  image: gradle:4.10.2-jdk8-alpine
   image: gradle:4.7-jdk8-alpine
 #  image: gradle:4.10.2-jdk8
-  script: "gradle clean sonarqube -Dsonar.host.url=http://192.168.1.75:9001 -Dsonar.verbose=true -Dsonar.sourceEncoding=UTF-8 -Dsonar.login=$SONAR_TOKEN -Dsonar.gitlab.issue_filter=MINOR -Dsonar.gitlab.failure_notification_mode=exit-code -Dsonar.gitlab.project_id=$CI_PROJECT_URL"
+  script: "gradle clean sonarqube -Dsonar.host.url=http://192.168.1.75:9002 -Dsonar.verbose=true -Dsonar.sourceEncoding=UTF-8 -Dsonar.login=$SONAR_TOKEN -Dsonar.gitlab.issue_filter=MINOR -Dsonar.gitlab.failure_notification_mode=exit-code -Dsonar.gitlab.project_id=$CI_PROJECT_URL"
   only:
     - develop
 
