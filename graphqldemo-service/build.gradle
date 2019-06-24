@@ -1,0 +1,49 @@
+buildscript {
+    ext {
+        springBootVersion = '2.1.6.RELEASE'
+    }
+    repositories {
+        mavenLocal()
+		mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+group = 'com.htc.ea'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+targetCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+	//BootStarter Web/JPA/Redis
+	compile('org.springframework.boot:spring-boot-starter')
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile('org.springframework.boot:spring-boot-starter-data-redis')
+    //HTC-ICC
+    implementation 'com.htc.ea.core:htc-ea-core-config:0.0.1-SNAPSHOT'
+    //Others
+    implementation 'redis.clients:jedis'
+    //GraphQL
+    implementation 'com.graphql-java:graphql-spring-boot-starter:5.0.2'
+    implementation 'com.graphql-java:graphql-java-tools:5.2.4'
+    //implementation 'com.graphql-java:graphiql-spring-boot-starter:5.0.2'
+    //Memory H2DB
+    runtime 'com.h2database:h2'
+    //Getter/Setter Runtime
+    compile('org.projectlombok:lombok:1.18.2')
+    //Test-BootStarter
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}

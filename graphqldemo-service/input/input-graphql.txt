@@ -1,0 +1,64 @@
+# Input Graphql for graphqldemo-service
+# endpoint: http://localhost:8098/graphql
+# UserQuery
+query {
+  users(first: 0, last: 0) {
+    login
+    id
+    name
+  }
+  user(id: 3) {
+    id
+    login
+    name
+  }
+}
+
+# UserMutation
+mutation {
+  createUser(login: \"arevalok\", name: \"Kevin Arévalo\") {
+    id
+  }
+}
+
+# PostQuery
+query {
+  recentPosts(count: 5, offset: 0) {
+    id, title, text, category, author{id}
+    
+  }
+  postsByAuthor: getPosts(author: {id: 6}) {
+    id, title, text, category, 
+    author {
+    	id name thumbnail postQty
+    }
+  }
+  author(id: 5) {
+    id name thumbnail postQty
+  }
+}
+
+
+# PostMutation
+mutation {
+  writePost(title: "Fuse integration c/Karaf", 
+    text: "Developing Fuse & Camel", 
+    category: "PRODUCTION", 
+    authorId: 6) {
+    id
+    title
+    text
+    category
+    author {
+      id 
+      name 
+      thumbnail 
+      #post {
+      #	id
+    	#}
+    }
+  }
+}
+
+
+

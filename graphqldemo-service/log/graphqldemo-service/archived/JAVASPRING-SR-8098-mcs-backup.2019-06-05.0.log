@@ -1,0 +1,468 @@
+[2019-06-05 00:27:04] INFO  Starting Application on JAVASPRING-SR with PID 19900 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-05 00:27:04] DEBUG Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+[2019-06-05 00:27:04] INFO  No active profile set, falling back to default profiles: default
+[2019-06-05 00:27:11] DEBUG Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+[2019-06-05 00:27:11] DEBUG HikariPool-1 - configuration:
+[2019-06-05 00:27:11] DEBUG allowPoolSuspension.............false
+[2019-06-05 00:27:11] DEBUG autoCommit......................true
+[2019-06-05 00:27:11] DEBUG catalog.........................none
+[2019-06-05 00:27:11] DEBUG connectionInitSql...............none
+[2019-06-05 00:27:11] DEBUG connectionTestQuery.............none
+[2019-06-05 00:27:11] DEBUG connectionTimeout...............30000
+[2019-06-05 00:27:11] DEBUG dataSource......................none
+[2019-06-05 00:27:11] DEBUG dataSourceClassName.............none
+[2019-06-05 00:27:11] DEBUG dataSourceJNDI..................none
+[2019-06-05 00:27:11] DEBUG dataSourceProperties............{password=<masked>}
+[2019-06-05 00:27:11] DEBUG driverClassName................."org.h2.Driver"
+[2019-06-05 00:27:11] DEBUG healthCheckProperties...........{}
+[2019-06-05 00:27:11] DEBUG healthCheckRegistry.............none
+[2019-06-05 00:27:11] DEBUG idleTimeout.....................600000
+[2019-06-05 00:27:11] DEBUG initializationFailTimeout.......1
+[2019-06-05 00:27:11] DEBUG isolateInternalQueries..........false
+[2019-06-05 00:27:11] DEBUG jdbcUrl.........................jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+[2019-06-05 00:27:11] DEBUG leakDetectionThreshold..........0
+[2019-06-05 00:27:11] DEBUG maxLifetime.....................1800000
+[2019-06-05 00:27:11] DEBUG maximumPoolSize.................10
+[2019-06-05 00:27:11] DEBUG metricRegistry..................none
+[2019-06-05 00:27:11] DEBUG metricsTrackerFactory...........none
+[2019-06-05 00:27:11] DEBUG minimumIdle.....................10
+[2019-06-05 00:27:11] DEBUG password........................<masked>
+[2019-06-05 00:27:11] DEBUG poolName........................"HikariPool-1"
+[2019-06-05 00:27:11] DEBUG readOnly........................false
+[2019-06-05 00:27:11] DEBUG registerMbeans..................false
+[2019-06-05 00:27:11] DEBUG scheduledExecutor...............none
+[2019-06-05 00:27:11] DEBUG schema..........................none
+[2019-06-05 00:27:11] DEBUG threadFactory...................internal
+[2019-06-05 00:27:11] DEBUG transactionIsolation............default
+[2019-06-05 00:27:11] DEBUG username........................"sa"
+[2019-06-05 00:27:11] DEBUG validationTimeout...............5000
+[2019-06-05 00:27:11] INFO  HikariPool-1 - Starting...
+[2019-06-05 00:27:11] DEBUG HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:27:11] INFO  HikariPool-1 - Start completed.
+[2019-06-05 00:27:11] DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2019-06-05 00:27:11] DEBUG HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:27:11] DEBUG HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:27:11] DEBUG HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:27:11] DEBUG HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:27:11] DEBUG HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:27:11] DEBUG HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:27:11] DEBUG HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:27:11] DEBUG HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:27:11] DEBUG HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:27:11] DEBUG HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:27:19] INFO  Started Application in 15.53 seconds (JVM running for 17.019)
+[2019-06-05 00:27:19] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:27:19] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:27:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:28:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:28:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:29:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:29:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:30:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:30:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:31:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:31:29] INFO  Usuario creado exitosamente , login: arevalok, name: Kevin Arévalo
+[2019-06-05 00:31:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:32:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:32:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:33:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:33:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:34:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:34:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:35:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:35:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:36:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:36:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:37:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:37:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:38:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:38:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:39:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:39:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:40:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:40:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:41:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:41:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:42:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:42:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:43:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:43:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:44:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:44:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:45:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:45:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:46:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:46:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:47:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:47:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:48:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:48:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:49:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:49:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:51:07] INFO  Starting Application on JAVASPRING-SR with PID 15588 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-05 00:51:07] DEBUG Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+[2019-06-05 00:51:07] INFO  No active profile set, falling back to default profiles: default
+[2019-06-05 00:51:10] DEBUG Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+[2019-06-05 00:51:11] DEBUG HikariPool-1 - configuration:
+[2019-06-05 00:51:11] DEBUG allowPoolSuspension.............false
+[2019-06-05 00:51:11] DEBUG autoCommit......................true
+[2019-06-05 00:51:11] DEBUG catalog.........................none
+[2019-06-05 00:51:11] DEBUG connectionInitSql...............none
+[2019-06-05 00:51:11] DEBUG connectionTestQuery.............none
+[2019-06-05 00:51:11] DEBUG connectionTimeout...............30000
+[2019-06-05 00:51:11] DEBUG dataSource......................none
+[2019-06-05 00:51:11] DEBUG dataSourceClassName.............none
+[2019-06-05 00:51:11] DEBUG dataSourceJNDI..................none
+[2019-06-05 00:51:11] DEBUG dataSourceProperties............{password=<masked>}
+[2019-06-05 00:51:11] DEBUG driverClassName................."org.h2.Driver"
+[2019-06-05 00:51:11] DEBUG healthCheckProperties...........{}
+[2019-06-05 00:51:11] DEBUG healthCheckRegistry.............none
+[2019-06-05 00:51:11] DEBUG idleTimeout.....................600000
+[2019-06-05 00:51:11] DEBUG initializationFailTimeout.......1
+[2019-06-05 00:51:11] DEBUG isolateInternalQueries..........false
+[2019-06-05 00:51:11] DEBUG jdbcUrl.........................jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+[2019-06-05 00:51:11] DEBUG leakDetectionThreshold..........0
+[2019-06-05 00:51:11] DEBUG maxLifetime.....................1800000
+[2019-06-05 00:51:11] DEBUG maximumPoolSize.................10
+[2019-06-05 00:51:11] DEBUG metricRegistry..................none
+[2019-06-05 00:51:11] DEBUG metricsTrackerFactory...........none
+[2019-06-05 00:51:11] DEBUG minimumIdle.....................10
+[2019-06-05 00:51:11] DEBUG password........................<masked>
+[2019-06-05 00:51:11] DEBUG poolName........................"HikariPool-1"
+[2019-06-05 00:51:11] DEBUG readOnly........................false
+[2019-06-05 00:51:11] DEBUG registerMbeans..................false
+[2019-06-05 00:51:11] DEBUG scheduledExecutor...............none
+[2019-06-05 00:51:11] DEBUG schema..........................none
+[2019-06-05 00:51:11] DEBUG threadFactory...................internal
+[2019-06-05 00:51:11] DEBUG transactionIsolation............default
+[2019-06-05 00:51:11] DEBUG username........................"sa"
+[2019-06-05 00:51:11] DEBUG validationTimeout...............5000
+[2019-06-05 00:51:11] INFO  HikariPool-1 - Starting...
+[2019-06-05 00:51:11] DEBUG HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:51:11] INFO  HikariPool-1 - Start completed.
+[2019-06-05 00:51:11] DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2019-06-05 00:51:11] DEBUG HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:51:11] DEBUG HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:51:11] DEBUG HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:51:11] DEBUG HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:51:11] DEBUG HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:51:11] DEBUG HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:51:11] DEBUG HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:51:11] DEBUG HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:51:11] DEBUG HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:51:11] DEBUG HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:51:16] INFO  Started Application in 10.029 seconds (JVM running for 11.173)
+[2019-06-05 00:51:16] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:51:17] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 00:51:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:52:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:52:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:53:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 00:53:41] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:48:52] INFO  Starting Application on JAVASPRING-SR with PID 20836 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-05 01:48:52] DEBUG Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+[2019-06-05 01:48:52] INFO  No active profile set, falling back to default profiles: default
+[2019-06-05 01:48:58] DEBUG Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+[2019-06-05 01:48:59] DEBUG HikariPool-1 - configuration:
+[2019-06-05 01:48:59] DEBUG allowPoolSuspension.............false
+[2019-06-05 01:48:59] DEBUG autoCommit......................true
+[2019-06-05 01:48:59] DEBUG catalog.........................none
+[2019-06-05 01:48:59] DEBUG connectionInitSql...............none
+[2019-06-05 01:48:59] DEBUG connectionTestQuery.............none
+[2019-06-05 01:48:59] DEBUG connectionTimeout...............30000
+[2019-06-05 01:48:59] DEBUG dataSource......................none
+[2019-06-05 01:48:59] DEBUG dataSourceClassName.............none
+[2019-06-05 01:48:59] DEBUG dataSourceJNDI..................none
+[2019-06-05 01:48:59] DEBUG dataSourceProperties............{password=<masked>}
+[2019-06-05 01:48:59] DEBUG driverClassName................."org.h2.Driver"
+[2019-06-05 01:48:59] DEBUG healthCheckProperties...........{}
+[2019-06-05 01:48:59] DEBUG healthCheckRegistry.............none
+[2019-06-05 01:48:59] DEBUG idleTimeout.....................600000
+[2019-06-05 01:48:59] DEBUG initializationFailTimeout.......1
+[2019-06-05 01:48:59] DEBUG isolateInternalQueries..........false
+[2019-06-05 01:48:59] DEBUG jdbcUrl.........................jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+[2019-06-05 01:48:59] DEBUG leakDetectionThreshold..........0
+[2019-06-05 01:48:59] DEBUG maxLifetime.....................1800000
+[2019-06-05 01:48:59] DEBUG maximumPoolSize.................10
+[2019-06-05 01:48:59] DEBUG metricRegistry..................none
+[2019-06-05 01:48:59] DEBUG metricsTrackerFactory...........none
+[2019-06-05 01:48:59] DEBUG minimumIdle.....................10
+[2019-06-05 01:48:59] DEBUG password........................<masked>
+[2019-06-05 01:48:59] DEBUG poolName........................"HikariPool-1"
+[2019-06-05 01:48:59] DEBUG readOnly........................false
+[2019-06-05 01:48:59] DEBUG registerMbeans..................false
+[2019-06-05 01:48:59] DEBUG scheduledExecutor...............none
+[2019-06-05 01:48:59] DEBUG schema..........................none
+[2019-06-05 01:48:59] DEBUG threadFactory...................internal
+[2019-06-05 01:48:59] DEBUG transactionIsolation............default
+[2019-06-05 01:48:59] DEBUG username........................"sa"
+[2019-06-05 01:48:59] DEBUG validationTimeout...............5000
+[2019-06-05 01:48:59] INFO  HikariPool-1 - Starting...
+[2019-06-05 01:48:59] DEBUG HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 01:48:59] INFO  HikariPool-1 - Start completed.
+[2019-06-05 01:48:59] DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2019-06-05 01:48:59] DEBUG HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 01:48:59] DEBUG HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 01:48:59] DEBUG HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 01:48:59] DEBUG HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 01:48:59] DEBUG HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 01:48:59] DEBUG HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 01:48:59] DEBUG HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 01:48:59] DEBUG HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 01:48:59] DEBUG HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 01:48:59] DEBUG HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:49:06] INFO  Started Application in 14.858 seconds (JVM running for 24.136)
+[2019-06-05 01:49:07] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 01:49:07] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 01:49:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:49:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:50:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:50:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:51:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:51:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:52:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:52:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:53:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:53:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:54:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:54:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:55:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:55:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:56:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:56:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:57:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:57:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:58:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:58:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:59:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 01:59:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:00:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:00:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:01:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:01:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:02:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:02:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:03:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:03:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:04:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:04:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:05:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:05:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:06:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:06:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:07:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:07:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:08:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:08:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:09:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:09:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:10:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:10:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:11:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:11:59] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:15:02] INFO  Starting Application on JAVASPRING-SR with PID 18320 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-05 02:15:02] DEBUG Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+[2019-06-05 02:15:02] INFO  No active profile set, falling back to default profiles: default
+[2019-06-05 02:15:06] DEBUG Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+[2019-06-05 02:15:06] DEBUG HikariPool-1 - configuration:
+[2019-06-05 02:15:06] DEBUG allowPoolSuspension.............false
+[2019-06-05 02:15:06] DEBUG autoCommit......................true
+[2019-06-05 02:15:06] DEBUG catalog.........................none
+[2019-06-05 02:15:06] DEBUG connectionInitSql...............none
+[2019-06-05 02:15:06] DEBUG connectionTestQuery.............none
+[2019-06-05 02:15:06] DEBUG connectionTimeout...............30000
+[2019-06-05 02:15:06] DEBUG dataSource......................none
+[2019-06-05 02:15:06] DEBUG dataSourceClassName.............none
+[2019-06-05 02:15:06] DEBUG dataSourceJNDI..................none
+[2019-06-05 02:15:06] DEBUG dataSourceProperties............{password=<masked>}
+[2019-06-05 02:15:06] DEBUG driverClassName................."org.h2.Driver"
+[2019-06-05 02:15:06] DEBUG healthCheckProperties...........{}
+[2019-06-05 02:15:06] DEBUG healthCheckRegistry.............none
+[2019-06-05 02:15:06] DEBUG idleTimeout.....................600000
+[2019-06-05 02:15:06] DEBUG initializationFailTimeout.......1
+[2019-06-05 02:15:06] DEBUG isolateInternalQueries..........false
+[2019-06-05 02:15:06] DEBUG jdbcUrl.........................jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+[2019-06-05 02:15:06] DEBUG leakDetectionThreshold..........0
+[2019-06-05 02:15:06] DEBUG maxLifetime.....................1800000
+[2019-06-05 02:15:06] DEBUG maximumPoolSize.................10
+[2019-06-05 02:15:06] DEBUG metricRegistry..................none
+[2019-06-05 02:15:06] DEBUG metricsTrackerFactory...........none
+[2019-06-05 02:15:06] DEBUG minimumIdle.....................10
+[2019-06-05 02:15:06] DEBUG password........................<masked>
+[2019-06-05 02:15:06] DEBUG poolName........................"HikariPool-1"
+[2019-06-05 02:15:06] DEBUG readOnly........................false
+[2019-06-05 02:15:06] DEBUG registerMbeans..................false
+[2019-06-05 02:15:06] DEBUG scheduledExecutor...............none
+[2019-06-05 02:15:06] DEBUG schema..........................none
+[2019-06-05 02:15:06] DEBUG threadFactory...................internal
+[2019-06-05 02:15:06] DEBUG transactionIsolation............default
+[2019-06-05 02:15:06] DEBUG username........................"sa"
+[2019-06-05 02:15:06] DEBUG validationTimeout...............5000
+[2019-06-05 02:15:06] INFO  HikariPool-1 - Starting...
+[2019-06-05 02:15:06] DEBUG HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 02:15:06] INFO  HikariPool-1 - Start completed.
+[2019-06-05 02:15:06] DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2019-06-05 02:15:06] DEBUG HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 02:15:06] DEBUG HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 02:15:06] DEBUG HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 02:15:06] DEBUG HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 02:15:06] DEBUG HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 02:15:06] DEBUG HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 02:15:06] DEBUG HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 02:15:06] DEBUG HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 02:15:06] DEBUG HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 02:15:06] DEBUG HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:15:11] INFO  Started Application in 9.426 seconds (JVM running for 10.649)
+[2019-06-05 02:15:11] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 02:15:11] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 02:15:36] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:16:06] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:16:36] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:17:06] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:17:36] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:18:06] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 02:18:36] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:07:03] INFO  Starting Application on JAVASPRING-SR with PID 1564 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-05 04:07:03] DEBUG Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+[2019-06-05 04:07:03] INFO  No active profile set, falling back to default profiles: default
+[2019-06-05 04:07:08] DEBUG Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+[2019-06-05 04:07:09] DEBUG HikariPool-1 - configuration:
+[2019-06-05 04:07:09] DEBUG allowPoolSuspension.............false
+[2019-06-05 04:07:09] DEBUG autoCommit......................true
+[2019-06-05 04:07:09] DEBUG catalog.........................none
+[2019-06-05 04:07:09] DEBUG connectionInitSql...............none
+[2019-06-05 04:07:09] DEBUG connectionTestQuery.............none
+[2019-06-05 04:07:09] DEBUG connectionTimeout...............30000
+[2019-06-05 04:07:09] DEBUG dataSource......................none
+[2019-06-05 04:07:09] DEBUG dataSourceClassName.............none
+[2019-06-05 04:07:09] DEBUG dataSourceJNDI..................none
+[2019-06-05 04:07:09] DEBUG dataSourceProperties............{password=<masked>}
+[2019-06-05 04:07:09] DEBUG driverClassName................."org.h2.Driver"
+[2019-06-05 04:07:09] DEBUG healthCheckProperties...........{}
+[2019-06-05 04:07:09] DEBUG healthCheckRegistry.............none
+[2019-06-05 04:07:09] DEBUG idleTimeout.....................600000
+[2019-06-05 04:07:09] DEBUG initializationFailTimeout.......1
+[2019-06-05 04:07:09] DEBUG isolateInternalQueries..........false
+[2019-06-05 04:07:09] DEBUG jdbcUrl.........................jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+[2019-06-05 04:07:09] DEBUG leakDetectionThreshold..........0
+[2019-06-05 04:07:09] DEBUG maxLifetime.....................1800000
+[2019-06-05 04:07:09] DEBUG maximumPoolSize.................10
+[2019-06-05 04:07:09] DEBUG metricRegistry..................none
+[2019-06-05 04:07:09] DEBUG metricsTrackerFactory...........none
+[2019-06-05 04:07:09] DEBUG minimumIdle.....................10
+[2019-06-05 04:07:09] DEBUG password........................<masked>
+[2019-06-05 04:07:09] DEBUG poolName........................"HikariPool-1"
+[2019-06-05 04:07:09] DEBUG readOnly........................false
+[2019-06-05 04:07:09] DEBUG registerMbeans..................false
+[2019-06-05 04:07:09] DEBUG scheduledExecutor...............none
+[2019-06-05 04:07:09] DEBUG schema..........................none
+[2019-06-05 04:07:09] DEBUG threadFactory...................internal
+[2019-06-05 04:07:09] DEBUG transactionIsolation............default
+[2019-06-05 04:07:09] DEBUG username........................"sa"
+[2019-06-05 04:07:09] DEBUG validationTimeout...............5000
+[2019-06-05 04:07:09] INFO  HikariPool-1 - Starting...
+[2019-06-05 04:07:09] DEBUG HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:07:09] INFO  HikariPool-1 - Start completed.
+[2019-06-05 04:07:09] DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2019-06-05 04:07:09] DEBUG HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:07:09] DEBUG HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:07:09] DEBUG HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:07:09] DEBUG HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:07:09] DEBUG HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:07:09] DEBUG HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:07:09] DEBUG HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:07:09] DEBUG HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:07:09] DEBUG HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:07:09] DEBUG HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:07:15] INFO  Started Application in 13.142 seconds (JVM running for 21.659)
+[2019-06-05 04:07:16] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:07:16] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:07:39] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:08:09] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:08:18] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:08:19] INFO  Post recientes encontrados: 0
+[2019-06-05 04:08:19] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:08:19] INFO  Post encontrados: 0
+[2019-06-05 04:08:19] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:08:19] INFO  Author encontrado: Author [id=5, name=Alejandro Cea, thumbnail=Thanos Panter, posts qty=0]
+[2019-06-05 04:08:39] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:08:50] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:08:50] INFO  Post recientes encontrados: 0
+[2019-06-05 04:08:50] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:08:50] INFO  Post encontrados: 0
+[2019-06-05 04:08:50] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:08:50] INFO  Author encontrado: Author [id=5, name=Alejandro Cea, thumbnail=Thanos Panter, posts qty=0]
+[2019-06-05 04:09:04] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:09:04] INFO  Post recientes encontrados: 0
+[2019-06-05 04:09:04] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:09:04] INFO  Post encontrados: 0
+[2019-06-05 04:09:04] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:09:04] INFO  Author encontrado: Author [id=5, name=Alejandro Cea, thumbnail=Thanos Panter, posts qty=0]
+[2019-06-05 04:09:09] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:09:39] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:10:09] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:10:39] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:11:09] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:11:39] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:12:09] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:12:39] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:13:09] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:13:39] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:14:09] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:14:23] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:14:23] INFO  Post, creado exitosamente Post [id=7, title=Fuse integration Karaf, text=Developing Fuse y Camel, category=PRODUCTION, authorId=6]
+[2019-06-05 04:14:32] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:14:32] INFO  Post, creado exitosamente Post [id=8, title=Fuse integration Karaf, text=Developing Fuse y Camel, category=PRODUCTION, authorId=6]
+[2019-06-05 04:14:39] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:15:09] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:15:33] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:15:33] INFO  Post, creado exitosamente Post [id=9, title=Fuse integration Karaf, text=Developing Fuse y Camel, category=PRODUCTION, authorId=6]
+[2019-06-05 04:15:35] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:15:35] INFO  Post, creado exitosamente Post [id=10, title=Fuse integration Karaf, text=Developing Fuse y Camel, category=PRODUCTION, authorId=6]
+[2019-06-05 04:15:36] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:15:36] INFO  Post, creado exitosamente Post [id=11, title=Fuse integration Karaf, text=Developing Fuse y Camel, category=PRODUCTION, authorId=6]
+[2019-06-05 04:15:37] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:15:37] INFO  Post, creado exitosamente Post [id=12, title=Fuse integration Karaf, text=Developing Fuse y Camel, category=PRODUCTION, authorId=6]
+[2019-06-05 04:15:39] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:16:01] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:16:01] INFO  Post recientes encontrados: 5
+[2019-06-05 04:16:01] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:16:01] INFO  Post encontrados: 6
+[2019-06-05 04:16:01] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:16:01] INFO  Author encontrado: Author [id=5, name=Alejandro Cea, thumbnail=Thanos Panter, posts qty=0]
+[2019-06-05 04:16:09] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:16:39] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:16:56] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:16:56] INFO  Post recientes encontrados: 5
+[2019-06-05 04:16:56] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:16:56] INFO  Post encontrados: 6
+[2019-06-05 04:16:56] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-05 04:16:56] INFO  Author encontrado: Author [id=6, name=Osmaro Silva, thumbnail=El chief, posts qty=6]
+[2019-06-05 04:17:09] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:17:39] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-05 04:18:09] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)

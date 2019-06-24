@@ -1,0 +1,1213 @@
+[2019-06-22 18:43:38] INFO  Starting Application on JAVASPRING-SR with PID 12176 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-22 18:43:38] DEBUG Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+[2019-06-22 18:43:38] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 18:43:46] DEBUG Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+[2019-06-22 18:43:46] DEBUG HikariPool-1 - configuration:
+[2019-06-22 18:43:46] DEBUG allowPoolSuspension.............false
+[2019-06-22 18:43:46] DEBUG autoCommit......................true
+[2019-06-22 18:43:46] DEBUG catalog.........................none
+[2019-06-22 18:43:46] DEBUG connectionInitSql...............none
+[2019-06-22 18:43:46] DEBUG connectionTestQuery.............none
+[2019-06-22 18:43:46] DEBUG connectionTimeout...............30000
+[2019-06-22 18:43:46] DEBUG dataSource......................none
+[2019-06-22 18:43:46] DEBUG dataSourceClassName.............none
+[2019-06-22 18:43:46] DEBUG dataSourceJNDI..................none
+[2019-06-22 18:43:46] DEBUG dataSourceProperties............{password=<masked>}
+[2019-06-22 18:43:46] DEBUG driverClassName................."org.h2.Driver"
+[2019-06-22 18:43:46] DEBUG healthCheckProperties...........{}
+[2019-06-22 18:43:46] DEBUG healthCheckRegistry.............none
+[2019-06-22 18:43:46] DEBUG idleTimeout.....................600000
+[2019-06-22 18:43:46] DEBUG initializationFailTimeout.......1
+[2019-06-22 18:43:46] DEBUG isolateInternalQueries..........false
+[2019-06-22 18:43:46] DEBUG jdbcUrl.........................jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+[2019-06-22 18:43:46] DEBUG leakDetectionThreshold..........0
+[2019-06-22 18:43:46] DEBUG maxLifetime.....................1800000
+[2019-06-22 18:43:46] DEBUG maximumPoolSize.................10
+[2019-06-22 18:43:46] DEBUG metricRegistry..................none
+[2019-06-22 18:43:46] DEBUG metricsTrackerFactory...........none
+[2019-06-22 18:43:46] DEBUG minimumIdle.....................10
+[2019-06-22 18:43:46] DEBUG password........................<masked>
+[2019-06-22 18:43:46] DEBUG poolName........................"HikariPool-1"
+[2019-06-22 18:43:46] DEBUG readOnly........................false
+[2019-06-22 18:43:46] DEBUG registerMbeans..................false
+[2019-06-22 18:43:46] DEBUG scheduledExecutor...............none
+[2019-06-22 18:43:46] DEBUG schema..........................none
+[2019-06-22 18:43:46] DEBUG threadFactory...................internal
+[2019-06-22 18:43:46] DEBUG transactionIsolation............default
+[2019-06-22 18:43:46] DEBUG username........................"sa"
+[2019-06-22 18:43:46] DEBUG validationTimeout...............5000
+[2019-06-22 18:43:46] INFO  HikariPool-1 - Starting...
+[2019-06-22 18:43:47] DEBUG HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 18:43:47] INFO  HikariPool-1 - Start completed.
+[2019-06-22 18:43:47] DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2019-06-22 18:43:47] DEBUG HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 18:43:47] DEBUG HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 18:43:47] DEBUG HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 18:43:47] DEBUG HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 18:43:47] DEBUG HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 18:43:47] DEBUG HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 18:43:47] DEBUG HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 18:43:47] DEBUG HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 18:43:47] DEBUG HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 18:43:47] DEBUG HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 18:43:55] INFO  Started Application in 18.352 seconds (JVM running for 19.725)
+[2019-06-22 18:43:56] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 18:43:56] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 18:44:17] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 18:44:47] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 18:45:17] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 20:10:18] INFO  Starting ContextLoads on JAVASPRING-SR with PID 5548 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 20:10:18] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 20:10:18] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 20:10:19] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 20:10:19] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 20:10:19] INFO  Getting configurationData...
+[2019-06-22 20:10:19] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 20:10:19] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 20:10:19] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 20:10:20] DEBUG Creating addListener cacheListenerCore to RedisContainer from ICC
+[2019-06-22 20:10:20] DEBUG Succesful addListener cacheListenerCore in RedisContainer from ICC
+[2019-06-22 20:10:20] INFO  Started ContextLoads in 1.765 seconds (JVM running for 3.592)
+[2019-06-22 20:10:20] INFO  demoapplication-1.0 in development Started Application
+[2019-06-22 20:13:45] INFO  Starting ContextLoads on JAVASPRING-SR with PID 16228 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 20:13:45] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 20:13:45] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 20:13:45] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 20:13:46] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 20:13:46] INFO  Getting configurationData...
+[2019-06-22 20:13:46] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 20:13:46] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 20:13:46] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 20:13:46] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 20:13:46] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 20:13:46] INFO  Started ContextLoads in 2.042 seconds (JVM running for 3.789)
+[2019-06-22 20:13:47] INFO  demoapplication-1.0 in development Started Application
+[2019-06-22 20:16:25] INFO  Starting ContextLoads on JAVASPRING-SR with PID 10372 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 20:16:25] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 20:16:25] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 20:16:25] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 20:16:25] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 20:16:25] INFO  Getting configurationData...
+[2019-06-22 20:16:26] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 20:16:26] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 20:16:26] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 20:16:26] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 20:16:26] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 20:16:26] INFO  Started ContextLoads in 1.534 seconds (JVM running for 3.028)
+[2019-06-22 20:16:26] INFO  demoapplication-1.0 in development Started Application
+[2019-06-22 20:16:35] INFO  Refreshing configuration data...
+[2019-06-22 20:16:35] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 20:17:10] INFO  Refreshing configuration data target...
+[2019-06-22 20:17:10] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 20:28:27] INFO  Starting ContextLoads on JAVASPRING-SR with PID 12108 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 20:28:27] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 20:28:27] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 20:28:27] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 20:28:27] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 20:28:27] INFO  Getting configurationData...
+[2019-06-22 20:28:28] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 20:28:28] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 20:28:28] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 20:28:28] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 20:28:28] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 20:28:28] INFO  Started ContextLoads in 1.723 seconds (JVM running for 4.028)
+[2019-06-22 20:29:03] INFO  Starting ContextLoads on JAVASPRING-SR with PID 16132 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 20:29:03] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 20:29:03] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 20:29:04] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 20:29:04] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 20:29:04] INFO  Getting configurationData...
+[2019-06-22 20:29:04] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 20:29:04] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 20:29:04] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 20:29:04] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 20:29:04] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 20:29:04] INFO  Started ContextLoads in 1.541 seconds (JVM running for 2.781)
+[2019-06-22 20:29:05] INFO  demoapplication-1.0 in development Started Application
+[2019-06-22 20:29:05] INFO  Configentries init
+[2019-06-22 20:29:05] INFO  scheduled.task.execution.enabled = true, service.ascp.code.reason.8 = The request was not made.
+[2019-06-22 20:29:15] INFO  Configentries after 10000 ms
+[2019-06-22 20:29:15] INFO  scheduled.task.execution.enabled = true, service.ascp.code.reason.8 = The request was not made.
+[2019-06-22 20:29:15] INFO  demoapplication-1.0 in development Started Application
+[2019-06-22 20:29:22] INFO  Refreshing configuration data...
+[2019-06-22 20:29:22] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 20:30:20] INFO  Starting ContextLoads on JAVASPRING-SR with PID 18064 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 20:30:20] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 20:30:20] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 20:30:20] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 20:30:21] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 20:30:21] INFO  Getting configurationData...
+[2019-06-22 20:30:21] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 20:30:21] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 20:30:21] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 20:30:21] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 20:30:21] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 20:30:21] INFO  Started ContextLoads in 1.411 seconds (JVM running for 3.191)
+[2019-06-22 20:30:21] INFO  demoapplication-1.0 in development Started Application
+[2019-06-22 20:30:21] INFO  Configentries init
+[2019-06-22 20:30:21] INFO  scheduled.task.execution.enabled = false, service.ascp.code.reason.8 = The request was not made.
+[2019-06-22 20:30:31] INFO  Configentries after 10000 ms
+[2019-06-22 20:30:31] INFO  scheduled.task.execution.enabled = false, service.ascp.code.reason.8 = The request was not made.
+[2019-06-22 20:30:31] INFO  demoapplication-1.0 in development Started Application
+[2019-06-22 20:30:38] INFO  Refreshing configuration data...
+[2019-06-22 20:30:38] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 20:33:01] INFO  Starting ContextLoads on JAVASPRING-SR with PID 9944 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 20:33:01] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 20:33:01] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 20:33:01] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 20:33:02] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 20:33:02] INFO  Getting configurationData...
+[2019-06-22 20:33:02] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 20:33:02] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 20:33:02] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 20:33:02] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 20:33:02] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 20:33:02] INFO  Started ContextLoads in 1.939 seconds (JVM running for 3.293)
+[2019-06-22 20:33:02] INFO  demoapplication-1.0 in development Started Application
+[2019-06-22 20:33:02] INFO  Configentries init
+[2019-06-22 20:33:02] INFO  scheduled.task.execution.enabled = true, service.ascp.code.reason.8 = The request was not made.
+[2019-06-22 20:33:17] INFO  Configentries after 15000 ms
+[2019-06-22 20:33:17] INFO  scheduled.task.execution.enabled = true, service.ascp.code.reason.8 = The request was not made.
+[2019-06-22 20:33:18] INFO  demoapplication-1.0 in development Started Application
+[2019-06-22 20:33:24] INFO  Refreshing configuration data...
+[2019-06-22 20:33:24] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 20:34:06] INFO  Starting ContextLoads on JAVASPRING-SR with PID 6840 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 20:34:06] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 20:34:06] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 20:34:06] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 20:34:06] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 20:34:07] INFO  Getting configurationData...
+[2019-06-22 20:34:07] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 20:34:07] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 20:34:07] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 20:34:07] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 20:34:07] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 20:34:07] INFO  Started ContextLoads in 2.228 seconds (JVM running for 3.924)
+[2019-06-22 20:34:08] INFO  demoapplication-1.0 in development Started Application
+[2019-06-22 20:34:08] INFO  Configentries init
+[2019-06-22 20:34:08] INFO  scheduled.task.execution.enabled = false, service.ascp.code.reason.8 = The request was not made.
+[2019-06-22 20:34:26] INFO  Refreshing configuration data...
+[2019-06-22 20:34:26] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 20:34:33] INFO  Configentries after 25000 ms
+[2019-06-22 20:34:33] INFO  scheduled.task.execution.enabled = true, service.ascp.code.reason.8 = The request was not made.
+[2019-06-22 20:34:33] INFO  demoapplication-1.0 in development Started Application
+[2019-06-22 20:45:52] INFO  Starting ContextLoads on JAVASPRING-SR with PID 16968 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 20:45:52] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 20:45:52] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 20:45:52] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 20:45:53] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 20:45:53] INFO  Getting configurationData...
+[2019-06-22 20:45:53] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 20:45:53] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 20:45:53] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 20:45:53] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 20:45:53] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 20:45:53] INFO  Started ContextLoads in 1.816 seconds (JVM running for 3.339)
+[2019-06-22 20:45:54] INFO  demoapplication-1.0 in development Started Application
+[2019-06-22 20:45:54] INFO  Configentries init
+[2019-06-22 20:45:54] INFO  scheduled.task.execution.enabled = true, service.ascp.code.reason.8 = The request was not made.
+[2019-06-22 20:46:17] INFO  Refreshing configuration data target...
+[2019-06-22 20:46:17] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 20:46:19] INFO  Configentries after 25000 ms
+[2019-06-22 20:46:19] INFO  scheduled.task.execution.enabled = true, service.ascp.code.reason.8 = The request was not made. STAN
+[2019-06-22 20:46:19] INFO  demoapplication-1.0 in development Started Application
+[2019-06-22 20:48:25] INFO  Refreshing configuration data...
+[2019-06-22 20:48:25] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 21:08:17] INFO  Starting ContextLoads on JAVASPRING-SR with PID 10760 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 21:08:17] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 21:08:17] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 21:08:18] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:08:18] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:08:18] INFO  Getting configurationData...
+[2019-06-22 21:08:18] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 21:08:18] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 21:08:19] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 21:08:19] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 21:08:19] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 21:08:19] INFO  Started ContextLoads in 2.116 seconds (JVM running for 3.877)
+[2019-06-22 21:08:19] INFO  :::::: Test ConfigurationService ::::::
+[2019-06-22 21:08:19] INFO  scheduled.task.execution.enabled = true
+[2019-06-22 21:08:19] INFO  scheduled.task.execution.enabled = Lista => 
+[2019-06-22 21:09:42] INFO  Starting ContextLoads on JAVASPRING-SR with PID 796 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 21:09:42] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 21:09:42] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 21:09:42] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:09:42] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:09:43] INFO  Getting configurationData...
+[2019-06-22 21:09:43] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 21:09:43] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 21:09:43] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 21:09:43] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 21:09:43] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 21:09:43] INFO  Started ContextLoads in 1.753 seconds (JVM running for 3.695)
+[2019-06-22 21:09:43] INFO  :::::: Test ConfigurationService ::::::
+[2019-06-22 21:09:43] INFO  scheduled.task.execution.enabled = true
+[2019-06-22 21:10:47] INFO  Starting ContextLoads on JAVASPRING-SR with PID 13192 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 21:10:47] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 21:10:47] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 21:10:48] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:10:48] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:10:48] INFO  Getting configurationData...
+[2019-06-22 21:10:48] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 21:10:48] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 21:10:48] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 21:10:49] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 21:10:49] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 21:10:49] INFO  Started ContextLoads in 1.646 seconds (JVM running for 2.924)
+[2019-06-22 21:10:49] INFO  :::::: Test ConfigurationService ::::::
+[2019-06-22 21:10:49] INFO  scheduled.task.execution.enabled = true
+[2019-06-22 21:10:49] INFO  scheduled.task.execution.enabled = Lista => 
+[2019-06-22 21:11:03] INFO  Starting ContextLoads on JAVASPRING-SR with PID 18300 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 21:11:03] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 21:11:03] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 21:11:04] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:11:05] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:11:05] INFO  Getting configurationData...
+[2019-06-22 21:11:06] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 21:11:06] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 21:11:06] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 21:11:06] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 21:11:06] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 21:11:06] INFO  Started ContextLoads in 3.661 seconds (JVM running for 6.942)
+[2019-06-22 21:11:07] INFO  :::::: Test ConfigurationService ::::::
+[2019-06-22 21:11:07] INFO  scheduled.task.execution.enabled = true
+[2019-06-22 21:11:07] INFO  scheduled.task.execution.enabled = Lista => 
+[2019-06-22 21:11:24] INFO  Starting ContextLoads on JAVASPRING-SR with PID 3392 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 21:11:24] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 21:11:24] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 21:11:25] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:11:25] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:11:25] INFO  Getting configurationData...
+[2019-06-22 21:11:26] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 21:11:26] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 21:11:26] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 21:11:26] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 21:11:26] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 21:11:26] INFO  Started ContextLoads in 2.953 seconds (JVM running for 5.396)
+[2019-06-22 21:11:27] INFO  :::::: Test ConfigurationService ::::::
+[2019-06-22 21:11:40] INFO  scheduled.task.execution.enabled = true
+[2019-06-22 21:11:48] INFO  scheduled.task.execution.enabled = Lista => 
+[2019-06-22 21:12:10] INFO  Starting ContextLoads on JAVASPRING-SR with PID 14088 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 21:12:10] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 21:12:10] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 21:12:10] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:12:10] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:12:10] INFO  Getting configurationData...
+[2019-06-22 21:12:11] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 21:12:11] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 21:12:11] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 21:12:11] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 21:12:11] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 21:12:11] INFO  Started ContextLoads in 1.663 seconds (JVM running for 3.593)
+[2019-06-22 21:12:11] INFO  :::::: Test ConfigurationService ::::::
+[2019-06-22 21:12:11] INFO  scheduled.task.execution.enabled = true
+[2019-06-22 21:12:11] INFO  scheduled.task.execution.enabled = Lista => 
+[2019-06-22 21:12:59] INFO  Starting ContextLoads on JAVASPRING-SR with PID 18652 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 21:12:59] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 21:12:59] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 21:13:00] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:13:00] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:13:00] INFO  Getting configurationData...
+[2019-06-22 21:13:01] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 21:13:01] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 21:13:01] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 21:13:01] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 21:13:01] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 21:13:01] INFO  Started ContextLoads in 1.868 seconds (JVM running for 3.51)
+[2019-06-22 21:13:01] INFO  :::::: Test ConfigurationService ::::::
+[2019-06-22 21:13:01] INFO  scheduled.task.execution.enabled = true
+[2019-06-22 21:13:01] INFO  scheduled.task.execution.enabled = Lista => 
+[2019-06-22 21:13:38] INFO  Starting ContextLoads on JAVASPRING-SR with PID 16100 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 21:13:38] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 21:13:38] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 21:13:39] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:13:39] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:13:39] INFO  Getting configurationData...
+[2019-06-22 21:13:39] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 21:13:40] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 21:13:40] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 21:13:40] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 21:13:40] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 21:13:40] INFO  Started ContextLoads in 1.955 seconds (JVM running for 3.736)
+[2019-06-22 21:13:41] INFO  :::::: Test ConfigurationService ::::::
+[2019-06-22 21:13:41] INFO  scheduled.task.execution.enabled = true
+[2019-06-22 21:13:41] INFO  rules.process.exclude.changewindow = Lista => [ADCNO, ADCNT, ADERT, ADERO, CP, ADER, CR]
+[2019-06-22 21:13:58] INFO  Starting ContextLoads on JAVASPRING-SR with PID 18332 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 21:13:58] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 21:13:58] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 21:13:59] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:13:59] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:13:59] INFO  Getting configurationData...
+[2019-06-22 21:14:00] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 21:14:00] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 21:14:00] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 21:14:00] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 21:14:00] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 21:14:00] INFO  Started ContextLoads in 2.094 seconds (JVM running for 4.06)
+[2019-06-22 21:14:00] INFO  :::::: Test ContextConfiguration refresh ::::::
+[2019-06-22 21:14:00] INFO  demoapplication-1.0 in development Started Application
+[2019-06-22 21:14:00] INFO  Configentries init
+[2019-06-22 21:14:00] INFO  scheduled.task.execution.enabled = true, service.ascp.code.reason.8 = The request was not made. STAN
+[2019-06-22 21:14:10] INFO  Starting ContextLoads on JAVASPRING-SR with PID 15244 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 21:14:10] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 21:14:10] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 21:14:10] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:14:11] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:14:11] INFO  Getting configurationData...
+[2019-06-22 21:14:11] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 21:14:11] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 21:14:11] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 21:14:11] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 21:14:11] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 21:14:11] INFO  Started ContextLoads in 1.821 seconds (JVM running for 3.273)
+[2019-06-22 21:14:12] INFO  :::::: Test ConfigurationService ::::::
+[2019-06-22 21:14:12] INFO  scheduled.task.execution.enabled = true
+[2019-06-22 21:14:12] INFO  rules.process.exclude.changewindow => Lista [ADCNO, ADCNT, ADERT, ADERO, CP, ADER, CR]
+[2019-06-22 21:17:04] INFO  Starting ContextLoads on JAVASPRING-SR with PID 19260 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 21:17:04] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 21:17:04] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 21:17:05] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:17:05] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:17:05] INFO  Getting configurationData...
+[2019-06-22 21:17:05] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 21:17:05] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 21:17:05] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 21:17:05] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 21:17:05] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 21:17:05] INFO  Started ContextLoads in 1.633 seconds (JVM running for 3.043)
+[2019-06-22 21:17:06] INFO  :::::: Test ConfigurationService ::::::
+[2019-06-22 21:17:06] INFO  scheduled.task.execution.enabled = true
+[2019-06-22 21:17:06] INFO  rules.process.exclude.changewindow => Lista [ADCNO, ADCNT, ADERT, ADERO, CP, ADER, CR]
+[2019-06-22 21:17:06] INFO  porta.cron.changewindow.port.out = 00 33 16 * * *
+[2019-06-22 21:17:06] INFO  authentication.np-sp.enabled => Lista [BASIC_AUTHORIZATION]
+[2019-06-22 21:20:10] INFO  Starting ContextLoads on JAVASPRING-SR with PID 7452 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 21:20:10] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 21:20:10] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 21:20:11] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:20:11] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:20:11] INFO  Getting configurationData...
+[2019-06-22 21:20:11] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 21:20:12] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 21:20:12] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 21:20:12] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 21:20:12] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 21:20:12] INFO  Started ContextLoads in 1.715 seconds (JVM running for 3.959)
+[2019-06-22 21:20:12] INFO  :::::: Test ConfigurationService ::::::
+[2019-06-22 21:20:12] INFO  scheduled.task.execution.enabled = true
+[2019-06-22 21:20:12] INFO  rules.process.exclude.changewindow => Lista [ADCNO, ADCNT, ADERT, ADERO, CP, ADER, CR]
+[2019-06-22 21:20:12] INFO  porta.cron.changewindow.port.out = 00 33 16 * * *
+[2019-06-22 21:20:12] INFO  authentication.np-sp.enabled => Lista [BASIC_AUTHORIZATION]
+[2019-06-22 21:20:34] INFO  Starting ContextLoads on JAVASPRING-SR with PID 10636 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 21:20:34] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 21:20:34] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 21:20:34] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:20:34] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:20:35] INFO  Getting configurationData...
+[2019-06-22 21:20:35] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 21:20:35] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 21:20:35] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 21:20:35] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 21:20:35] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 21:20:35] INFO  Started ContextLoads in 1.502 seconds (JVM running for 3.218)
+[2019-06-22 21:20:35] INFO  :::::: Test ContextConfiguration refresh ::::::
+[2019-06-22 21:20:35] INFO  demoapplication-1.0 in development Started Application
+[2019-06-22 21:20:35] INFO  Configentries init
+[2019-06-22 21:20:35] INFO  scheduled.task.execution.enabled = true, porta.cron.changewindow.port.out = 00 33 16 * * *
+[2019-06-22 21:21:00] INFO  Configentries after 25000 ms
+[2019-06-22 21:21:00] INFO  scheduled.task.execution.enabled = true, porta.cron.changewindow.port.out = 00 33 16 * * *
+[2019-06-22 21:56:57] INFO  Starting ContextLoads on JAVASPRING-SR with PID 15740 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 21:56:58] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 21:56:58] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 21:57:05] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:57:14] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 21:57:14] INFO  Getting configurationData...
+[2019-06-22 21:57:15] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 21:57:15] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 21:57:15] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 21:57:15] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 21:57:15] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 21:57:15] INFO  Started ContextLoads in 21.152 seconds (JVM running for 42.192)
+[2019-06-22 21:57:16] INFO  :::::: Test ContextConfiguration refresh ::::::
+[2019-06-22 21:57:16] INFO  demoapplication-1.0 in development Started Application
+[2019-06-22 21:57:16] INFO  Configentries init
+[2019-06-22 21:57:16] INFO  scheduled.task.execution.enabled = true, porta.cron.changewindow.port.out = 00 33 16 * * *
+[2019-06-22 21:57:41] INFO  Configentries after 25000 ms
+[2019-06-22 21:57:41] INFO  scheduled.task.execution.enabled = true, porta.cron.changewindow.port.out = 00 33 16 * * *
+[2019-06-22 21:57:41] INFO  :::::: Test ContextConfiguration ::::::
+[2019-06-22 21:57:41] INFO  demoapplication-1.0 in development Started Application
+[2019-06-22 22:14:52] INFO  Starting Application on JAVASPRING-SR with PID 13680 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-22 22:14:52] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 22:14:52] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 22:14:59] DEBUG Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: development#importporting
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+[2019-06-22 22:14:59] DEBUG HikariPool-1 - configuration:
+[2019-06-22 22:14:59] DEBUG allowPoolSuspension.............false
+[2019-06-22 22:14:59] DEBUG autoCommit......................true
+[2019-06-22 22:14:59] DEBUG catalog.........................none
+[2019-06-22 22:14:59] DEBUG connectionInitSql...............none
+[2019-06-22 22:14:59] DEBUG connectionTestQuery.............none
+[2019-06-22 22:14:59] DEBUG connectionTimeout...............30000
+[2019-06-22 22:14:59] DEBUG dataSource......................none
+[2019-06-22 22:14:59] DEBUG dataSourceClassName.............none
+[2019-06-22 22:14:59] DEBUG dataSourceJNDI..................none
+[2019-06-22 22:14:59] DEBUG dataSourceProperties............{password=<masked>}
+[2019-06-22 22:14:59] DEBUG driverClassName................."org.h2.Driver"
+[2019-06-22 22:14:59] DEBUG healthCheckProperties...........{}
+[2019-06-22 22:14:59] DEBUG healthCheckRegistry.............none
+[2019-06-22 22:14:59] DEBUG idleTimeout.....................600000
+[2019-06-22 22:14:59] DEBUG initializationFailTimeout.......1
+[2019-06-22 22:14:59] DEBUG isolateInternalQueries..........false
+[2019-06-22 22:14:59] DEBUG jdbcUrl.........................jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+[2019-06-22 22:14:59] DEBUG leakDetectionThreshold..........0
+[2019-06-22 22:14:59] DEBUG maxLifetime.....................1800000
+[2019-06-22 22:14:59] DEBUG maximumPoolSize.................10
+[2019-06-22 22:14:59] DEBUG metricRegistry..................none
+[2019-06-22 22:14:59] DEBUG metricsTrackerFactory...........none
+[2019-06-22 22:14:59] DEBUG minimumIdle.....................10
+[2019-06-22 22:14:59] DEBUG password........................<masked>
+[2019-06-22 22:14:59] DEBUG poolName........................"HikariPool-1"
+[2019-06-22 22:14:59] DEBUG readOnly........................false
+[2019-06-22 22:14:59] DEBUG registerMbeans..................false
+[2019-06-22 22:14:59] DEBUG scheduledExecutor...............none
+[2019-06-22 22:14:59] DEBUG schema..........................none
+[2019-06-22 22:14:59] DEBUG threadFactory...................internal
+[2019-06-22 22:14:59] DEBUG transactionIsolation............default
+[2019-06-22 22:14:59] DEBUG username........................"sa"
+[2019-06-22 22:14:59] DEBUG validationTimeout...............5000
+[2019-06-22 22:14:59] INFO  HikariPool-1 - Starting...
+[2019-06-22 22:15:00] DEBUG HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 22:15:00] INFO  HikariPool-1 - Start completed.
+[2019-06-22 22:15:00] DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2019-06-22 22:15:00] DEBUG HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 22:15:00] DEBUG HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 22:15:00] DEBUG HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 22:15:00] DEBUG HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 22:15:00] DEBUG HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 22:15:00] DEBUG HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 22:15:00] DEBUG HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 22:15:00] DEBUG HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 22:15:00] DEBUG HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 22:15:00] DEBUG HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 22:15:12] INFO  Started Application in 22.8 seconds (JVM running for 24.425)
+[2019-06-22 22:15:14] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 22:15:14] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 22:15:30] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 22:16:00] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 22:16:30] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 22:17:00] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 22:17:30] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 22:18:00] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 22:18:30] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 22:19:00] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 22:19:30] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 22:20:00] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 22:20:30] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 22:21:00] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 22:21:30] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 22:22:00] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 22:22:30] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 22:23:01] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 22:23:31] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 22:24:01] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 22:24:31] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 22:29:41] INFO  Starting Application on JAVASPRING-SR with PID 15876 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-22 22:29:41] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 22:29:41] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 22:30:18] INFO  Starting Application on JAVASPRING-SR with PID 1864 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-22 22:30:18] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 22:30:18] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 22:35:03] INFO  Starting Application on JAVASPRING-SR with PID 18276 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-22 22:35:03] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 22:35:03] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 22:42:45] INFO  Starting Application on JAVASPRING-SR with PID 10308 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-22 22:42:45] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 22:42:45] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 22:54:13] INFO  Starting Application on JAVASPRING-SR with PID 13968 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-22 22:54:13] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 22:54:13] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 22:55:23] INFO  Starting Application on JAVASPRING-SR with PID 16100 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-22 22:55:23] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 22:55:23] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 22:56:48] INFO  Starting Application on JAVASPRING-SR with PID 13564 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-22 22:56:48] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 22:56:48] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 23:05:38] INFO  Starting Application on JAVASPRING-SR with PID 10500 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-22 23:05:38] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 23:05:38] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 23:05:47] INFO  Starting Application on JAVASPRING-SR with PID 18196 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-22 23:05:47] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 23:05:47] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 23:05:59] INFO  Starting Application on JAVASPRING-SR with PID 10764 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-22 23:05:59] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 23:05:59] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 23:07:07] INFO  Starting Application on JAVASPRING-SR with PID 16760 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-22 23:07:07] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 23:07:07] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 23:08:11] INFO  Starting Application on JAVASPRING-SR with PID 14732 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-22 23:08:11] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 23:08:11] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 23:08:15] DEBUG Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: development#importporting
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+[2019-06-22 23:08:16] DEBUG HikariPool-1 - configuration:
+[2019-06-22 23:08:16] DEBUG allowPoolSuspension.............false
+[2019-06-22 23:08:16] DEBUG autoCommit......................true
+[2019-06-22 23:08:16] DEBUG catalog.........................none
+[2019-06-22 23:08:16] DEBUG connectionInitSql...............none
+[2019-06-22 23:08:16] DEBUG connectionTestQuery.............none
+[2019-06-22 23:08:16] DEBUG connectionTimeout...............30000
+[2019-06-22 23:08:16] DEBUG dataSource......................none
+[2019-06-22 23:08:16] DEBUG dataSourceClassName.............none
+[2019-06-22 23:08:16] DEBUG dataSourceJNDI..................none
+[2019-06-22 23:08:16] DEBUG dataSourceProperties............{password=<masked>}
+[2019-06-22 23:08:16] DEBUG driverClassName................."org.h2.Driver"
+[2019-06-22 23:08:16] DEBUG healthCheckProperties...........{}
+[2019-06-22 23:08:16] DEBUG healthCheckRegistry.............none
+[2019-06-22 23:08:16] DEBUG idleTimeout.....................600000
+[2019-06-22 23:08:16] DEBUG initializationFailTimeout.......1
+[2019-06-22 23:08:16] DEBUG isolateInternalQueries..........false
+[2019-06-22 23:08:16] DEBUG jdbcUrl.........................jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+[2019-06-22 23:08:16] DEBUG leakDetectionThreshold..........0
+[2019-06-22 23:08:16] DEBUG maxLifetime.....................1800000
+[2019-06-22 23:08:16] DEBUG maximumPoolSize.................10
+[2019-06-22 23:08:16] DEBUG metricRegistry..................none
+[2019-06-22 23:08:16] DEBUG metricsTrackerFactory...........none
+[2019-06-22 23:08:16] DEBUG minimumIdle.....................10
+[2019-06-22 23:08:16] DEBUG password........................<masked>
+[2019-06-22 23:08:16] DEBUG poolName........................"HikariPool-1"
+[2019-06-22 23:08:16] DEBUG readOnly........................false
+[2019-06-22 23:08:16] DEBUG registerMbeans..................false
+[2019-06-22 23:08:16] DEBUG scheduledExecutor...............none
+[2019-06-22 23:08:16] DEBUG schema..........................none
+[2019-06-22 23:08:16] DEBUG threadFactory...................internal
+[2019-06-22 23:08:16] DEBUG transactionIsolation............default
+[2019-06-22 23:08:16] DEBUG username........................"sa"
+[2019-06-22 23:08:16] DEBUG validationTimeout...............5000
+[2019-06-22 23:08:16] INFO  HikariPool-1 - Starting...
+[2019-06-22 23:08:16] DEBUG HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:08:16] INFO  HikariPool-1 - Start completed.
+[2019-06-22 23:08:16] DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2019-06-22 23:08:16] DEBUG HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:08:16] DEBUG HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:08:16] DEBUG HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:08:16] DEBUG HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:08:16] DEBUG HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:08:16] DEBUG HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:08:16] DEBUG HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:08:16] DEBUG HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:08:16] DEBUG HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:08:16] DEBUG HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:08:20] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 23:08:20] INFO  HikariPool-1 - Shutdown initiated...
+[2019-06-22 23:08:20] DEBUG HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:08:20] DEBUG HikariPool-1 - Closing connection conn0: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:08:20] DEBUG HikariPool-1 - Closing connection conn1: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:08:20] DEBUG HikariPool-1 - Closing connection conn2: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:08:20] DEBUG HikariPool-1 - Closing connection conn3: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:08:20] DEBUG HikariPool-1 - Closing connection conn4: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:08:20] DEBUG HikariPool-1 - Closing connection conn5: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:08:20] DEBUG HikariPool-1 - Closing connection conn6: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:08:20] DEBUG HikariPool-1 - Closing connection conn7: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:08:20] DEBUG HikariPool-1 - Closing connection conn8: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:08:20] DEBUG HikariPool-1 - Closing connection conn9: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:08:20] DEBUG HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2019-06-22 23:08:20] INFO  HikariPool-1 - Shutdown completed.
+[2019-06-22 23:10:28] INFO  Starting Application on JAVASPRING-SR with PID 11116 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-22 23:10:28] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 23:10:28] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 23:10:34] DEBUG Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: development#importporting
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+[2019-06-22 23:10:34] DEBUG HikariPool-1 - configuration:
+[2019-06-22 23:10:34] DEBUG allowPoolSuspension.............false
+[2019-06-22 23:10:34] DEBUG autoCommit......................true
+[2019-06-22 23:10:34] DEBUG catalog.........................none
+[2019-06-22 23:10:34] DEBUG connectionInitSql...............none
+[2019-06-22 23:10:34] DEBUG connectionTestQuery.............none
+[2019-06-22 23:10:34] DEBUG connectionTimeout...............30000
+[2019-06-22 23:10:34] DEBUG dataSource......................none
+[2019-06-22 23:10:34] DEBUG dataSourceClassName.............none
+[2019-06-22 23:10:34] DEBUG dataSourceJNDI..................none
+[2019-06-22 23:10:34] DEBUG dataSourceProperties............{password=<masked>}
+[2019-06-22 23:10:34] DEBUG driverClassName................."org.h2.Driver"
+[2019-06-22 23:10:34] DEBUG healthCheckProperties...........{}
+[2019-06-22 23:10:34] DEBUG healthCheckRegistry.............none
+[2019-06-22 23:10:34] DEBUG idleTimeout.....................600000
+[2019-06-22 23:10:34] DEBUG initializationFailTimeout.......1
+[2019-06-22 23:10:34] DEBUG isolateInternalQueries..........false
+[2019-06-22 23:10:34] DEBUG jdbcUrl.........................jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+[2019-06-22 23:10:34] DEBUG leakDetectionThreshold..........0
+[2019-06-22 23:10:34] DEBUG maxLifetime.....................1800000
+[2019-06-22 23:10:34] DEBUG maximumPoolSize.................10
+[2019-06-22 23:10:34] DEBUG metricRegistry..................none
+[2019-06-22 23:10:34] DEBUG metricsTrackerFactory...........none
+[2019-06-22 23:10:34] DEBUG minimumIdle.....................10
+[2019-06-22 23:10:34] DEBUG password........................<masked>
+[2019-06-22 23:10:34] DEBUG poolName........................"HikariPool-1"
+[2019-06-22 23:10:34] DEBUG readOnly........................false
+[2019-06-22 23:10:34] DEBUG registerMbeans..................false
+[2019-06-22 23:10:34] DEBUG scheduledExecutor...............none
+[2019-06-22 23:10:34] DEBUG schema..........................none
+[2019-06-22 23:10:34] DEBUG threadFactory...................internal
+[2019-06-22 23:10:34] DEBUG transactionIsolation............default
+[2019-06-22 23:10:34] DEBUG username........................"sa"
+[2019-06-22 23:10:34] DEBUG validationTimeout...............5000
+[2019-06-22 23:10:34] INFO  HikariPool-1 - Starting...
+[2019-06-22 23:10:34] DEBUG HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:10:34] INFO  HikariPool-1 - Start completed.
+[2019-06-22 23:10:34] DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2019-06-22 23:10:34] DEBUG HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:10:34] DEBUG HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:10:34] DEBUG HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:10:34] DEBUG HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:10:34] DEBUG HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:10:34] DEBUG HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:10:34] DEBUG HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:10:34] DEBUG HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:10:34] DEBUG HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:10:34] DEBUG HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:10:38] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 23:10:38] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 23:10:38] INFO  Getting configurationData...
+[2019-06-22 23:10:38] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 23:10:38] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 23:10:38] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 23:10:38] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 23:10:38] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 23:10:38] INFO  scheduled.task.execution.enabled = true
+[2019-06-22 23:10:38] INFO  rules.process.exclude.changewindow => Lista [ADCNO, ADCNT, ADERT, ADERO, CP, ADER, CR]
+[2019-06-22 23:10:40] INFO  Started Application in 13.093 seconds (JVM running for 14.264)
+[2019-06-22 23:10:40] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:10:41] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:11:04] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:11:34] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:12:04] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:12:34] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:13:04] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:13:34] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:14:04] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:14:34] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:14:57] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:14:57] INFO  Post recientes encontrados: 0
+[2019-06-22 23:14:57] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:14:57] INFO  Post encontrados: 0
+[2019-06-22 23:14:57] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:14:57] INFO  Author encontrado: Author [id=5, name=Alejandro Cea, thumbnail=Thanos Panter, posts qty=0]
+[2019-06-22 23:15:04] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:15:13] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:15:13] INFO  Post, creado exitosamente Post [id=7, title=Fuse integration c/Karaf, text=Developing Fuse & Camel, category=QA, authorId=6]
+[2019-06-22 23:15:34] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:16:07] INFO  Starting Application on JAVASPRING-SR with PID 14032 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-22 23:16:07] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 23:16:07] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 23:16:13] DEBUG Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: development#demoapp
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+[2019-06-22 23:16:13] DEBUG HikariPool-1 - configuration:
+[2019-06-22 23:16:13] DEBUG allowPoolSuspension.............false
+[2019-06-22 23:16:13] DEBUG autoCommit......................true
+[2019-06-22 23:16:13] DEBUG catalog.........................none
+[2019-06-22 23:16:13] DEBUG connectionInitSql...............none
+[2019-06-22 23:16:13] DEBUG connectionTestQuery.............none
+[2019-06-22 23:16:13] DEBUG connectionTimeout...............30000
+[2019-06-22 23:16:13] DEBUG dataSource......................none
+[2019-06-22 23:16:13] DEBUG dataSourceClassName.............none
+[2019-06-22 23:16:13] DEBUG dataSourceJNDI..................none
+[2019-06-22 23:16:13] DEBUG dataSourceProperties............{password=<masked>}
+[2019-06-22 23:16:13] DEBUG driverClassName................."org.h2.Driver"
+[2019-06-22 23:16:13] DEBUG healthCheckProperties...........{}
+[2019-06-22 23:16:13] DEBUG healthCheckRegistry.............none
+[2019-06-22 23:16:13] DEBUG idleTimeout.....................600000
+[2019-06-22 23:16:13] DEBUG initializationFailTimeout.......1
+[2019-06-22 23:16:13] DEBUG isolateInternalQueries..........false
+[2019-06-22 23:16:13] DEBUG jdbcUrl.........................jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+[2019-06-22 23:16:13] DEBUG leakDetectionThreshold..........0
+[2019-06-22 23:16:13] DEBUG maxLifetime.....................1800000
+[2019-06-22 23:16:13] DEBUG maximumPoolSize.................10
+[2019-06-22 23:16:13] DEBUG metricRegistry..................none
+[2019-06-22 23:16:13] DEBUG metricsTrackerFactory...........none
+[2019-06-22 23:16:13] DEBUG minimumIdle.....................10
+[2019-06-22 23:16:13] DEBUG password........................<masked>
+[2019-06-22 23:16:13] DEBUG poolName........................"HikariPool-1"
+[2019-06-22 23:16:13] DEBUG readOnly........................false
+[2019-06-22 23:16:13] DEBUG registerMbeans..................false
+[2019-06-22 23:16:13] DEBUG scheduledExecutor...............none
+[2019-06-22 23:16:13] DEBUG schema..........................none
+[2019-06-22 23:16:13] DEBUG threadFactory...................internal
+[2019-06-22 23:16:13] DEBUG transactionIsolation............default
+[2019-06-22 23:16:13] DEBUG username........................"sa"
+[2019-06-22 23:16:13] DEBUG validationTimeout...............5000
+[2019-06-22 23:16:13] INFO  HikariPool-1 - Starting...
+[2019-06-22 23:16:14] DEBUG HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:16:14] INFO  HikariPool-1 - Start completed.
+[2019-06-22 23:16:14] DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2019-06-22 23:16:14] DEBUG HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:16:14] DEBUG HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:16:14] DEBUG HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:16:14] DEBUG HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:16:14] DEBUG HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:16:14] DEBUG HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:16:14] DEBUG HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:16:14] DEBUG HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:16:14] DEBUG HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:16:14] DEBUG HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:16:19] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 23:16:20] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 23:16:20] INFO  Getting configurationData...
+[2019-06-22 23:16:20] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 23:16:20] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 23:16:20] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 23:16:20] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 23:16:20] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 23:16:20] INFO  scheduled.task.execution.enabled = true
+[2019-06-22 23:16:20] INFO  rules.process.exclude.changewindow => Lista [ADCNO, ADCNT, ADERT, ADERO, CP, ADER, CR]
+[2019-06-22 23:16:22] INFO  Started Application in 16.495 seconds (JVM running for 17.867)
+[2019-06-22 23:16:23] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:16:23] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:16:25] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:16:25] INFO  Post, creado exitosamente Post [id=7, title=Fuse integration c/Karaf, text=Developing Fuse & Camel, category=QA, authorId=6]
+[2019-06-22 23:20:30] INFO  Starting Application on JAVASPRING-SR with PID 19208 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\build\libs\graphqldemo-service-0.0.1-SNAPSHOT.jar started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\build\libs)
+[2019-06-22 23:20:30] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 23:20:30] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 23:20:39] DEBUG Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: development#demoapp
+  delegate: true
+----------> Parent Classloader:
+org.springframework.boot.loader.LaunchedURLClassLoader@37f8bb67
+
+[2019-06-22 23:20:40] DEBUG HikariPool-1 - configuration:
+[2019-06-22 23:20:40] DEBUG allowPoolSuspension.............false
+[2019-06-22 23:20:40] DEBUG autoCommit......................true
+[2019-06-22 23:20:40] DEBUG catalog.........................none
+[2019-06-22 23:20:40] DEBUG connectionInitSql...............none
+[2019-06-22 23:20:40] DEBUG connectionTestQuery.............none
+[2019-06-22 23:20:40] DEBUG connectionTimeout...............30000
+[2019-06-22 23:20:40] DEBUG dataSource......................none
+[2019-06-22 23:20:40] DEBUG dataSourceClassName.............none
+[2019-06-22 23:20:40] DEBUG dataSourceJNDI..................none
+[2019-06-22 23:20:40] DEBUG dataSourceProperties............{password=<masked>}
+[2019-06-22 23:20:40] DEBUG driverClassName................."org.h2.Driver"
+[2019-06-22 23:20:40] DEBUG healthCheckProperties...........{}
+[2019-06-22 23:20:40] DEBUG healthCheckRegistry.............none
+[2019-06-22 23:20:40] DEBUG idleTimeout.....................600000
+[2019-06-22 23:20:40] DEBUG initializationFailTimeout.......1
+[2019-06-22 23:20:40] DEBUG isolateInternalQueries..........false
+[2019-06-22 23:20:40] DEBUG jdbcUrl.........................jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+[2019-06-22 23:20:40] DEBUG leakDetectionThreshold..........0
+[2019-06-22 23:20:40] DEBUG maxLifetime.....................1800000
+[2019-06-22 23:20:40] DEBUG maximumPoolSize.................10
+[2019-06-22 23:20:40] DEBUG metricRegistry..................none
+[2019-06-22 23:20:40] DEBUG metricsTrackerFactory...........none
+[2019-06-22 23:20:40] DEBUG minimumIdle.....................10
+[2019-06-22 23:20:40] DEBUG password........................<masked>
+[2019-06-22 23:20:40] DEBUG poolName........................"HikariPool-1"
+[2019-06-22 23:20:40] DEBUG readOnly........................false
+[2019-06-22 23:20:40] DEBUG registerMbeans..................false
+[2019-06-22 23:20:40] DEBUG scheduledExecutor...............none
+[2019-06-22 23:20:40] DEBUG schema..........................none
+[2019-06-22 23:20:40] DEBUG threadFactory...................internal
+[2019-06-22 23:20:40] DEBUG transactionIsolation............default
+[2019-06-22 23:20:40] DEBUG username........................"sa"
+[2019-06-22 23:20:40] DEBUG validationTimeout...............5000
+[2019-06-22 23:20:40] INFO  HikariPool-1 - Starting...
+[2019-06-22 23:20:41] DEBUG HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:20:41] INFO  HikariPool-1 - Start completed.
+[2019-06-22 23:20:41] DEBUG HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+[2019-06-22 23:20:41] DEBUG HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:20:41] DEBUG HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:20:41] DEBUG HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:20:41] DEBUG HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:20:41] DEBUG HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:20:41] DEBUG HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:20:41] DEBUG HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:20:41] DEBUG HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:20:41] DEBUG HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:20:41] DEBUG HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:20:49] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 23:20:49] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 23:20:49] INFO  Getting configurationData...
+[2019-06-22 23:20:49] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 23:20:49] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 23:20:49] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 23:20:49] DEBUG Adding listener cacheCoreListener to RedisContainer from ICC
+[2019-06-22 23:20:49] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 23:20:49] INFO  scheduled.task.execution.enabled = true
+[2019-06-22 23:20:49] INFO  rules.process.exclude.changewindow => Lista [ADCNO, ADCNT, ADERT, ADERO, CP, ADER, CR]
+[2019-06-22 23:20:51] INFO  Started Application in 23.214 seconds (JVM running for 45.994)
+[2019-06-22 23:20:52] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:20:52] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:21:11] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:21:28] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:21:28] INFO  Post, creado exitosamente Post [id=7, title=Fuse integration c/Karaf, text=Developing Fuse & Camel, category=QA, authorId=6]
+[2019-06-22 23:21:34] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:21:34] INFO  Post, creado exitosamente Post [id=8, title=Fuse integration c/Karaf, text=Developing Fuse & Camel, category=QA, authorId=6]
+[2019-06-22 23:21:40] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:21:40] INFO  Post, creado exitosamente Post [id=9, title=Fuse integration c/Karaf, text=Developing Fuse & Camel, category=QA, authorId=6]
+[2019-06-22 23:21:40] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:21:40] INFO  Post, creado exitosamente Post [id=10, title=Fuse integration c/Karaf, text=Developing Fuse & Camel, category=QA, authorId=6]
+[2019-06-22 23:21:52] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:21:52] INFO  Post, creado exitosamente Post [id=11, title=Fuse integration c/Karaf, text=Developing Fuse & Camel, category=QA, authorId=6]
+[2019-06-22 23:21:58] WARN  HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s825ms705µs136ns).
+[2019-06-22 23:21:58] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:22:02] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:22:02] INFO  Post, creado exitosamente Post [id=12, title=Fuse integration c/Karaf, text=Developing Fuse & Camel, category=QA, authorId=6]
+[2019-06-22 23:22:28] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:29:41] INFO  Starting ContextLoads on JAVASPRING-SR with PID 11272 (started by STANLEY in D:\devsoft\Projects-HTC\sv-htc-sources\infra-core-container\infra-core\htc-ea-core-config)
+[2019-06-22 23:29:41] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 23:29:41] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 23:29:42] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 23:29:43] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 23:29:43] INFO  Getting configurationData...
+[2019-06-22 23:29:44] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 23:29:44] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 23:29:44] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 23:29:44] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 23:29:44] INFO  Started ContextLoads in 3.737 seconds (JVM running for 5.918)
+[2019-06-22 23:29:46] INFO  :::::: Test ConfigurationService ::::::
+[2019-06-22 23:29:46] INFO  scheduled.task.execution.enabled = true
+[2019-06-22 23:29:46] INFO  rules.process.exclude.changewindow => Lista [ADCNO, ADCNT, ADERT, ADERO, CP, ADER, CR]
+[2019-06-22 23:29:46] INFO  porta.cron.changewindow.port.out = 00 33 16 * * *
+[2019-06-22 23:29:46] INFO  authentication.np-sp.enabled => Lista [BASIC_AUTHORIZATION]
+[2019-06-22 23:34:53] INFO  Starting Application on JAVASPRING-SR with PID 244 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\build\libs\graphqldemo-service-0.0.1-SNAPSHOT.jar started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\build\libs)
+[2019-06-22 23:34:53] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 23:34:53] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 23:34:59] DEBUG Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: development#demoapp
+  delegate: true
+----------> Parent Classloader:
+org.springframework.boot.loader.LaunchedURLClassLoader@439f5b3d
+
+[2019-06-22 23:34:59] DEBUG HikariPool-1 - configuration:
+[2019-06-22 23:34:59] DEBUG allowPoolSuspension.............false
+[2019-06-22 23:34:59] DEBUG autoCommit......................true
+[2019-06-22 23:34:59] DEBUG catalog.........................none
+[2019-06-22 23:34:59] DEBUG connectionInitSql...............none
+[2019-06-22 23:34:59] DEBUG connectionTestQuery.............none
+[2019-06-22 23:34:59] DEBUG connectionTimeout...............30000
+[2019-06-22 23:34:59] DEBUG dataSource......................none
+[2019-06-22 23:34:59] DEBUG dataSourceClassName.............none
+[2019-06-22 23:34:59] DEBUG dataSourceJNDI..................none
+[2019-06-22 23:34:59] DEBUG dataSourceProperties............{password=<masked>}
+[2019-06-22 23:34:59] DEBUG driverClassName................."org.h2.Driver"
+[2019-06-22 23:34:59] DEBUG healthCheckProperties...........{}
+[2019-06-22 23:34:59] DEBUG healthCheckRegistry.............none
+[2019-06-22 23:34:59] DEBUG idleTimeout.....................600000
+[2019-06-22 23:34:59] DEBUG initializationFailTimeout.......1
+[2019-06-22 23:34:59] DEBUG isolateInternalQueries..........false
+[2019-06-22 23:34:59] DEBUG jdbcUrl.........................jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+[2019-06-22 23:34:59] DEBUG leakDetectionThreshold..........0
+[2019-06-22 23:34:59] DEBUG maxLifetime.....................1800000
+[2019-06-22 23:34:59] DEBUG maximumPoolSize.................10
+[2019-06-22 23:34:59] DEBUG metricRegistry..................none
+[2019-06-22 23:34:59] DEBUG metricsTrackerFactory...........none
+[2019-06-22 23:34:59] DEBUG minimumIdle.....................10
+[2019-06-22 23:34:59] DEBUG password........................<masked>
+[2019-06-22 23:34:59] DEBUG poolName........................"HikariPool-1"
+[2019-06-22 23:34:59] DEBUG readOnly........................false
+[2019-06-22 23:34:59] DEBUG registerMbeans..................false
+[2019-06-22 23:34:59] DEBUG scheduledExecutor...............none
+[2019-06-22 23:34:59] DEBUG schema..........................none
+[2019-06-22 23:34:59] DEBUG threadFactory...................internal
+[2019-06-22 23:34:59] DEBUG transactionIsolation............default
+[2019-06-22 23:34:59] DEBUG username........................"sa"
+[2019-06-22 23:34:59] DEBUG validationTimeout...............5000
+[2019-06-22 23:34:59] INFO  HikariPool-1 - Starting...
+[2019-06-22 23:34:59] DEBUG HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:34:59] INFO  HikariPool-1 - Start completed.
+[2019-06-22 23:34:59] DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2019-06-22 23:34:59] DEBUG HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:34:59] DEBUG HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:34:59] DEBUG HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:34:59] DEBUG HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:34:59] DEBUG HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:34:59] DEBUG HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:34:59] DEBUG HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:34:59] DEBUG HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:34:59] DEBUG HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:34:59] DEBUG HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:35:04] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 23:35:04] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 23:35:04] INFO  Getting configurationData...
+[2019-06-22 23:35:05] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 23:35:05] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 23:35:05] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 23:35:05] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 23:35:05] INFO  scheduled.task.execution.enabled = true
+[2019-06-22 23:35:05] INFO  rules.process.exclude.changewindow => Lista [ADCNO, ADCNT, ADERT, ADERO, CP, ADER, CR]
+[2019-06-22 23:35:06] INFO  Started Application in 13.978 seconds (JVM running for 15.32)
+[2019-06-22 23:35:07] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:35:07] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:35:27] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:35:27] INFO  Post, creado exitosamente Post [id=7, title=Fuse integration c/Karaf, text=Developing Fuse & Camel, category=QA, authorId=6]
+[2019-06-22 23:35:29] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:35:31] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:35:32] INFO  Post, creado exitosamente Post [id=8, title=Fuse integration c/Karaf, text=Developing Fuse & Camel, category=QA, authorId=6]
+[2019-06-22 23:35:42] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:35:42] INFO  Post recientes encontrados: 2
+[2019-06-22 23:35:42] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:35:42] INFO  Post encontrados: 2
+[2019-06-22 23:35:42] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:35:42] INFO  Author encontrado: Author [id=5, name=Alejandro Cea, thumbnail=Thanos Panter, posts qty=0]
+[2019-06-22 23:35:48] INFO  HikariPool-1 - Shutdown initiated...
+[2019-06-22 23:35:48] DEBUG HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:35:48] DEBUG HikariPool-1 - Closing connection conn0: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:35:48] DEBUG HikariPool-1 - Closing connection conn1: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:35:49] DEBUG HikariPool-1 - Closing connection conn2: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:35:49] DEBUG HikariPool-1 - Closing connection conn3: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:35:49] DEBUG HikariPool-1 - Closing connection conn4: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:35:49] DEBUG HikariPool-1 - Closing connection conn5: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:35:49] DEBUG HikariPool-1 - Closing connection conn6: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:35:49] DEBUG HikariPool-1 - Closing connection conn7: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:35:49] DEBUG HikariPool-1 - Closing connection conn8: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:35:49] DEBUG HikariPool-1 - Closing connection conn9: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:35:49] DEBUG HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2019-06-22 23:35:49] INFO  HikariPool-1 - Shutdown completed.
+[2019-06-22 23:42:24] INFO  Starting Application on JAVASPRING-SR with PID 11736 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-22 23:42:24] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 23:42:24] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 23:42:29] DEBUG Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: development#demoapp
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+[2019-06-22 23:42:29] DEBUG HikariPool-1 - configuration:
+[2019-06-22 23:42:29] DEBUG allowPoolSuspension.............false
+[2019-06-22 23:42:29] DEBUG autoCommit......................true
+[2019-06-22 23:42:29] DEBUG catalog.........................none
+[2019-06-22 23:42:29] DEBUG connectionInitSql...............none
+[2019-06-22 23:42:29] DEBUG connectionTestQuery.............none
+[2019-06-22 23:42:29] DEBUG connectionTimeout...............30000
+[2019-06-22 23:42:29] DEBUG dataSource......................none
+[2019-06-22 23:42:29] DEBUG dataSourceClassName.............none
+[2019-06-22 23:42:29] DEBUG dataSourceJNDI..................none
+[2019-06-22 23:42:29] DEBUG dataSourceProperties............{password=<masked>}
+[2019-06-22 23:42:29] DEBUG driverClassName................."org.h2.Driver"
+[2019-06-22 23:42:29] DEBUG healthCheckProperties...........{}
+[2019-06-22 23:42:29] DEBUG healthCheckRegistry.............none
+[2019-06-22 23:42:29] DEBUG idleTimeout.....................600000
+[2019-06-22 23:42:29] DEBUG initializationFailTimeout.......1
+[2019-06-22 23:42:29] DEBUG isolateInternalQueries..........false
+[2019-06-22 23:42:29] DEBUG jdbcUrl.........................jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+[2019-06-22 23:42:29] DEBUG leakDetectionThreshold..........0
+[2019-06-22 23:42:29] DEBUG maxLifetime.....................1800000
+[2019-06-22 23:42:29] DEBUG maximumPoolSize.................10
+[2019-06-22 23:42:29] DEBUG metricRegistry..................none
+[2019-06-22 23:42:29] DEBUG metricsTrackerFactory...........none
+[2019-06-22 23:42:29] DEBUG minimumIdle.....................10
+[2019-06-22 23:42:29] DEBUG password........................<masked>
+[2019-06-22 23:42:29] DEBUG poolName........................"HikariPool-1"
+[2019-06-22 23:42:29] DEBUG readOnly........................false
+[2019-06-22 23:42:29] DEBUG registerMbeans..................false
+[2019-06-22 23:42:29] DEBUG scheduledExecutor...............none
+[2019-06-22 23:42:29] DEBUG schema..........................none
+[2019-06-22 23:42:29] DEBUG threadFactory...................internal
+[2019-06-22 23:42:29] DEBUG transactionIsolation............default
+[2019-06-22 23:42:29] DEBUG username........................"sa"
+[2019-06-22 23:42:29] DEBUG validationTimeout...............5000
+[2019-06-22 23:42:29] INFO  HikariPool-1 - Starting...
+[2019-06-22 23:42:30] DEBUG HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:42:30] INFO  HikariPool-1 - Start completed.
+[2019-06-22 23:42:30] DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2019-06-22 23:42:30] DEBUG HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:42:30] DEBUG HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:42:30] DEBUG HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:42:30] DEBUG HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:42:30] DEBUG HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:42:30] DEBUG HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:42:30] DEBUG HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:42:30] DEBUG HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:42:30] DEBUG HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:42:30] DEBUG HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:42:34] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 23:42:35] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 23:42:35] INFO  Getting configurationData...
+[2019-06-22 23:42:35] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 23:42:35] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 23:42:35] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 23:42:35] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 23:42:35] INFO  scheduled.task.execution.enabled = true
+[2019-06-22 23:42:35] INFO  rules.process.exclude.changewindow => Lista [ADCNO, ADCNT, ADERT, ADERO, CP, ADER, CR]
+[2019-06-22 23:42:38] INFO  Started Application in 14.625 seconds (JVM running for 15.603)
+[2019-06-22 23:42:39] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:42:39] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:43:00] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:43:30] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:44:00] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:44:30] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:45:00] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:45:30] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:46:00] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:46:30] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:47:00] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:47:30] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:48:00] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:48:30] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:49:00] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:49:30] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:50:00] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:50:30] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:51:00] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:51:30] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:52:00] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:52:30] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:55:11] INFO  Starting Application on JAVASPRING-SR with PID 660 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-22 23:55:11] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 23:55:11] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 23:55:16] DEBUG Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: development#demoapp
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+[2019-06-22 23:55:16] DEBUG HikariPool-1 - configuration:
+[2019-06-22 23:55:16] DEBUG allowPoolSuspension.............false
+[2019-06-22 23:55:16] DEBUG autoCommit......................true
+[2019-06-22 23:55:16] DEBUG catalog.........................none
+[2019-06-22 23:55:16] DEBUG connectionInitSql...............none
+[2019-06-22 23:55:16] DEBUG connectionTestQuery.............none
+[2019-06-22 23:55:16] DEBUG connectionTimeout...............30000
+[2019-06-22 23:55:16] DEBUG dataSource......................none
+[2019-06-22 23:55:16] DEBUG dataSourceClassName.............none
+[2019-06-22 23:55:16] DEBUG dataSourceJNDI..................none
+[2019-06-22 23:55:16] DEBUG dataSourceProperties............{password=<masked>}
+[2019-06-22 23:55:16] DEBUG driverClassName................."org.h2.Driver"
+[2019-06-22 23:55:16] DEBUG healthCheckProperties...........{}
+[2019-06-22 23:55:16] DEBUG healthCheckRegistry.............none
+[2019-06-22 23:55:16] DEBUG idleTimeout.....................600000
+[2019-06-22 23:55:16] DEBUG initializationFailTimeout.......1
+[2019-06-22 23:55:16] DEBUG isolateInternalQueries..........false
+[2019-06-22 23:55:16] DEBUG jdbcUrl.........................jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+[2019-06-22 23:55:16] DEBUG leakDetectionThreshold..........0
+[2019-06-22 23:55:16] DEBUG maxLifetime.....................1800000
+[2019-06-22 23:55:16] DEBUG maximumPoolSize.................10
+[2019-06-22 23:55:16] DEBUG metricRegistry..................none
+[2019-06-22 23:55:16] DEBUG metricsTrackerFactory...........none
+[2019-06-22 23:55:16] DEBUG minimumIdle.....................10
+[2019-06-22 23:55:16] DEBUG password........................<masked>
+[2019-06-22 23:55:16] DEBUG poolName........................"HikariPool-1"
+[2019-06-22 23:55:16] DEBUG readOnly........................false
+[2019-06-22 23:55:16] DEBUG registerMbeans..................false
+[2019-06-22 23:55:16] DEBUG scheduledExecutor...............none
+[2019-06-22 23:55:16] DEBUG schema..........................none
+[2019-06-22 23:55:16] DEBUG threadFactory...................internal
+[2019-06-22 23:55:16] DEBUG transactionIsolation............default
+[2019-06-22 23:55:16] DEBUG username........................"sa"
+[2019-06-22 23:55:16] DEBUG validationTimeout...............5000
+[2019-06-22 23:55:16] INFO  HikariPool-1 - Starting...
+[2019-06-22 23:55:16] DEBUG HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:55:16] INFO  HikariPool-1 - Start completed.
+[2019-06-22 23:55:16] DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2019-06-22 23:55:16] DEBUG HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:55:16] DEBUG HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:55:16] DEBUG HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:55:16] DEBUG HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:55:16] DEBUG HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:55:16] DEBUG HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:55:16] DEBUG HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:55:16] DEBUG HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:55:16] DEBUG HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:55:16] DEBUG HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:55:20] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 23:55:20] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 23:55:20] INFO  HikariPool-1 - Shutdown initiated...
+[2019-06-22 23:55:20] DEBUG HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:55:20] DEBUG HikariPool-1 - Closing connection conn0: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:55:20] DEBUG HikariPool-1 - Closing connection conn1: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:55:20] DEBUG HikariPool-1 - Closing connection conn2: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:55:20] DEBUG HikariPool-1 - Closing connection conn3: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:55:20] DEBUG HikariPool-1 - Closing connection conn4: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:55:20] DEBUG HikariPool-1 - Closing connection conn5: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:55:20] DEBUG HikariPool-1 - Closing connection conn6: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:55:20] DEBUG HikariPool-1 - Closing connection conn7: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:55:20] DEBUG HikariPool-1 - Closing connection conn8: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:55:20] DEBUG HikariPool-1 - Closing connection conn9: url=jdbc:h2:mem:testdb user=SA: (connection evicted)
+[2019-06-22 23:55:20] DEBUG HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2019-06-22 23:55:20] INFO  HikariPool-1 - Shutdown completed.
+[2019-06-22 23:57:26] INFO  Starting Application on JAVASPRING-SR with PID 15432 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-22 23:57:26] DEBUG Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+[2019-06-22 23:57:26] INFO  No active profile set, falling back to default profiles: default
+[2019-06-22 23:57:31] DEBUG Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: development#demoapp
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+[2019-06-22 23:57:31] DEBUG HikariPool-1 - configuration:
+[2019-06-22 23:57:31] DEBUG allowPoolSuspension.............false
+[2019-06-22 23:57:31] DEBUG autoCommit......................true
+[2019-06-22 23:57:31] DEBUG catalog.........................none
+[2019-06-22 23:57:31] DEBUG connectionInitSql...............none
+[2019-06-22 23:57:31] DEBUG connectionTestQuery.............none
+[2019-06-22 23:57:31] DEBUG connectionTimeout...............30000
+[2019-06-22 23:57:31] DEBUG dataSource......................none
+[2019-06-22 23:57:31] DEBUG dataSourceClassName.............none
+[2019-06-22 23:57:31] DEBUG dataSourceJNDI..................none
+[2019-06-22 23:57:31] DEBUG dataSourceProperties............{password=<masked>}
+[2019-06-22 23:57:31] DEBUG driverClassName................."org.h2.Driver"
+[2019-06-22 23:57:31] DEBUG healthCheckProperties...........{}
+[2019-06-22 23:57:31] DEBUG healthCheckRegistry.............none
+[2019-06-22 23:57:31] DEBUG idleTimeout.....................600000
+[2019-06-22 23:57:31] DEBUG initializationFailTimeout.......1
+[2019-06-22 23:57:31] DEBUG isolateInternalQueries..........false
+[2019-06-22 23:57:31] DEBUG jdbcUrl.........................jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+[2019-06-22 23:57:31] DEBUG leakDetectionThreshold..........0
+[2019-06-22 23:57:31] DEBUG maxLifetime.....................1800000
+[2019-06-22 23:57:31] DEBUG maximumPoolSize.................10
+[2019-06-22 23:57:31] DEBUG metricRegistry..................none
+[2019-06-22 23:57:31] DEBUG metricsTrackerFactory...........none
+[2019-06-22 23:57:31] DEBUG minimumIdle.....................10
+[2019-06-22 23:57:31] DEBUG password........................<masked>
+[2019-06-22 23:57:31] DEBUG poolName........................"HikariPool-1"
+[2019-06-22 23:57:31] DEBUG readOnly........................false
+[2019-06-22 23:57:31] DEBUG registerMbeans..................false
+[2019-06-22 23:57:31] DEBUG scheduledExecutor...............none
+[2019-06-22 23:57:31] DEBUG schema..........................none
+[2019-06-22 23:57:31] DEBUG threadFactory...................internal
+[2019-06-22 23:57:31] DEBUG transactionIsolation............default
+[2019-06-22 23:57:31] DEBUG username........................"sa"
+[2019-06-22 23:57:31] DEBUG validationTimeout...............5000
+[2019-06-22 23:57:31] INFO  HikariPool-1 - Starting...
+[2019-06-22 23:57:32] DEBUG HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:57:32] INFO  HikariPool-1 - Start completed.
+[2019-06-22 23:57:32] DEBUG HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2019-06-22 23:57:32] DEBUG HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:57:32] DEBUG HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:57:32] DEBUG HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:57:32] DEBUG HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:57:32] DEBUG HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:57:32] DEBUG HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:57:32] DEBUG HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:57:32] DEBUG HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:57:32] DEBUG HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:57:32] DEBUG HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-22 23:57:36] DEBUG Creating @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 23:57:36] DEBUG Succesful creation of @Bean connectionRedisManager for Messages Publishers/Subscribers
+[2019-06-22 23:57:36] INFO  Getting configurationData...
+[2019-06-22 23:57:36] INFO  ConfigurationData: demoapplication-development-1.0, ready!
+[2019-06-22 23:57:36] INFO  ConfigurationData target: demotarget, ready!
+[2019-06-22 23:57:36] INFO  CoreConfig redis channel name: refresh-channel
+[2019-06-22 23:57:36] DEBUG Succesful added cacheCoreListener in RedisContainer from ICC
+[2019-06-22 23:57:36] INFO  scheduled.task.execution.enabled = true
+[2019-06-22 23:57:36] INFO  rules.process.exclude.changewindow => Lista [ADCNO, ADCNT, ADERT, ADERO, CP, ADER, CR]
+[2019-06-22 23:57:37] INFO  Started Application in 11.796 seconds (JVM running for 13.287)
+[2019-06-22 23:57:38] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-22 23:57:38] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA

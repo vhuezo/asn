@@ -1,0 +1,43 @@
+type PostDto {
+    id: ID!
+    title: String!
+    text: String!
+    category: String
+    author: AuthorDto!
+}
+
+type AuthorDto {
+    id: ID!
+    name: String!
+    thumbnail: String
+    postQty: Int
+}
+
+
+input AuthorDtoInput {
+    id: ID!
+    name: String
+    thumbnail: String
+}
+
+type User {
+	login: String!
+	id: ID!
+	name: String
+}
+
+# The Root Query for the application
+type Query {
+    recentPosts(count: ID, offset: ID): [PostDto]!	
+    getPosts(author: AuthorDtoInput): [PostDto]
+    users(first:ID, last: ID): [User]
+	user(id: ID!): User
+	author(id: Int!): AuthorDto
+}	
+
+# The Root Mutation for the application
+type Mutation {
+    writePost(title: String!, text: String!, category: String!, authorId: Int!): PostDto!
+    createUser(login: String!, name: String!): User
+	deleteUser(id: ID!): Boolean
+}

@@ -1,0 +1,366 @@
+[2019-06-13 10:08:48] INFO  Bootstrapping Spring Data repositories in DEFAULT mode.
+[2019-06-13 10:08:49] INFO  Finished Spring Data repository scanning in 622ms. Found 3 repository interfaces.
+[2019-06-13 10:08:51] INFO  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6ec011cf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-06-13 10:08:52] INFO  Tomcat initialized with port(s): 8098 (http)
+[2019-06-13 10:08:52] INFO  Starting service [Tomcat]
+[2019-06-13 10:08:52] INFO  Starting Servlet engine: [Apache Tomcat/9.0.19]
+[2019-06-13 10:08:52] INFO  Initializing Spring embedded WebApplicationContext
+[2019-06-13 10:08:52] INFO  Root WebApplicationContext: initialization completed in 9600 ms
+[2019-06-13 10:08:53] INFO  HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[2019-06-13 10:08:54] INFO  HHH000412: Hibernate Core {5.3.10.Final}
+[2019-06-13 10:08:54] INFO  HHH000206: hibernate.properties not found
+[2019-06-13 10:08:55] INFO  HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2019-06-13 10:08:55] DEBUG Adding type registration boolean -> org.hibernate.type.BooleanType@4277127c
+[2019-06-13 10:08:55] DEBUG Adding type registration boolean -> org.hibernate.type.BooleanType@4277127c
+[2019-06-13 10:08:55] DEBUG Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@4277127c
+[2019-06-13 10:08:55] DEBUG Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@22ebccb9
+[2019-06-13 10:08:55] DEBUG Adding type registration true_false -> org.hibernate.type.TrueFalseType@2687725a
+[2019-06-13 10:08:55] DEBUG Adding type registration yes_no -> org.hibernate.type.YesNoType@33956d1a
+[2019-06-13 10:08:55] DEBUG Adding type registration byte -> org.hibernate.type.ByteType@5a8ab2
+[2019-06-13 10:08:55] DEBUG Adding type registration byte -> org.hibernate.type.ByteType@5a8ab2
+[2019-06-13 10:08:55] DEBUG Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@5a8ab2
+[2019-06-13 10:08:55] DEBUG Adding type registration character -> org.hibernate.type.CharacterType@63dfada0
+[2019-06-13 10:08:55] DEBUG Adding type registration char -> org.hibernate.type.CharacterType@63dfada0
+[2019-06-13 10:08:55] DEBUG Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@63dfada0
+[2019-06-13 10:08:55] DEBUG Adding type registration short -> org.hibernate.type.ShortType@a4b5ce3
+[2019-06-13 10:08:55] DEBUG Adding type registration short -> org.hibernate.type.ShortType@a4b5ce3
+[2019-06-13 10:08:55] DEBUG Adding type registration java.lang.Short -> org.hibernate.type.ShortType@a4b5ce3
+[2019-06-13 10:08:55] DEBUG Adding type registration integer -> org.hibernate.type.IntegerType@75120e58
+[2019-06-13 10:08:55] DEBUG Adding type registration int -> org.hibernate.type.IntegerType@75120e58
+[2019-06-13 10:08:55] DEBUG Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@75120e58
+[2019-06-13 10:08:55] DEBUG Adding type registration long -> org.hibernate.type.LongType@697a34af
+[2019-06-13 10:08:55] DEBUG Adding type registration long -> org.hibernate.type.LongType@697a34af
+[2019-06-13 10:08:55] DEBUG Adding type registration java.lang.Long -> org.hibernate.type.LongType@697a34af
+[2019-06-13 10:08:55] DEBUG Adding type registration float -> org.hibernate.type.FloatType@78b612c6
+[2019-06-13 10:08:55] DEBUG Adding type registration float -> org.hibernate.type.FloatType@78b612c6
+[2019-06-13 10:08:55] DEBUG Adding type registration java.lang.Float -> org.hibernate.type.FloatType@78b612c6
+[2019-06-13 10:08:55] DEBUG Adding type registration double -> org.hibernate.type.DoubleType@3c3820bb
+[2019-06-13 10:08:55] DEBUG Adding type registration double -> org.hibernate.type.DoubleType@3c3820bb
+[2019-06-13 10:08:55] DEBUG Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@3c3820bb
+[2019-06-13 10:08:55] DEBUG Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@16a9eb2e
+[2019-06-13 10:08:55] DEBUG Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@16a9eb2e
+[2019-06-13 10:08:55] DEBUG Adding type registration big_integer -> org.hibernate.type.BigIntegerType@3b48e183
+[2019-06-13 10:08:55] DEBUG Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@3b48e183
+[2019-06-13 10:08:55] DEBUG Adding type registration string -> org.hibernate.type.StringType@17461db
+[2019-06-13 10:08:55] DEBUG Adding type registration java.lang.String -> org.hibernate.type.StringType@17461db
+[2019-06-13 10:08:55] DEBUG Adding type registration nstring -> org.hibernate.type.StringNVarcharType@670b3ca
+[2019-06-13 10:08:55] DEBUG Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@5b3bb1f7
+[2019-06-13 10:08:55] DEBUG Adding type registration url -> org.hibernate.type.UrlType@1dbd580
+[2019-06-13 10:08:55] DEBUG Adding type registration java.net.URL -> org.hibernate.type.UrlType@1dbd580
+[2019-06-13 10:08:55] DEBUG Adding type registration Duration -> org.hibernate.type.DurationType@4c86da0c
+[2019-06-13 10:08:55] DEBUG Adding type registration java.time.Duration -> org.hibernate.type.DurationType@4c86da0c
+[2019-06-13 10:08:55] DEBUG Adding type registration Instant -> org.hibernate.type.InstantType@5ec5ea63
+[2019-06-13 10:08:55] DEBUG Adding type registration java.time.Instant -> org.hibernate.type.InstantType@5ec5ea63
+[2019-06-13 10:08:55] DEBUG Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@69d45cca
+[2019-06-13 10:08:55] DEBUG Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@69d45cca
+[2019-06-13 10:08:55] DEBUG Adding type registration LocalDate -> org.hibernate.type.LocalDateType@79c5460e
+[2019-06-13 10:08:55] DEBUG Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@79c5460e
+[2019-06-13 10:08:55] DEBUG Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@534e58b6
+[2019-06-13 10:08:55] DEBUG Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@534e58b6
+[2019-06-13 10:08:55] DEBUG Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@71e35c4
+[2019-06-13 10:08:55] DEBUG Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@71e35c4
+[2019-06-13 10:08:55] DEBUG Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@c269425
+[2019-06-13 10:08:55] DEBUG Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@c269425
+[2019-06-13 10:08:55] DEBUG Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@41853299
+[2019-06-13 10:08:55] DEBUG Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@41853299
+[2019-06-13 10:08:55] DEBUG Adding type registration date -> org.hibernate.type.DateType@77681ce4
+[2019-06-13 10:08:55] DEBUG Adding type registration java.sql.Date -> org.hibernate.type.DateType@77681ce4
+[2019-06-13 10:08:55] DEBUG Adding type registration time -> org.hibernate.type.TimeType@6fc6deb7
+[2019-06-13 10:08:55] DEBUG Adding type registration java.sql.Time -> org.hibernate.type.TimeType@6fc6deb7
+[2019-06-13 10:08:55] DEBUG Adding type registration timestamp -> org.hibernate.type.TimestampType@5349b246
+[2019-06-13 10:08:55] DEBUG Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@5349b246
+[2019-06-13 10:08:55] DEBUG Adding type registration java.util.Date -> org.hibernate.type.TimestampType@5349b246
+[2019-06-13 10:08:55] DEBUG Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@39bbd9e0
+[2019-06-13 10:08:55] DEBUG Adding type registration calendar -> org.hibernate.type.CalendarType@77114efe
+[2019-06-13 10:08:55] DEBUG Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@77114efe
+[2019-06-13 10:08:55] DEBUG Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@77114efe
+[2019-06-13 10:08:55] DEBUG Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@3e4e4c1
+[2019-06-13 10:08:55] DEBUG Adding type registration locale -> org.hibernate.type.LocaleType@65ddee5a
+[2019-06-13 10:08:55] DEBUG Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@65ddee5a
+[2019-06-13 10:08:55] DEBUG Adding type registration currency -> org.hibernate.type.CurrencyType@53a7a60c
+[2019-06-13 10:08:55] DEBUG Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@53a7a60c
+[2019-06-13 10:08:55] DEBUG Adding type registration timezone -> org.hibernate.type.TimeZoneType@2503ec73
+[2019-06-13 10:08:55] DEBUG Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@2503ec73
+[2019-06-13 10:08:55] DEBUG Adding type registration class -> org.hibernate.type.ClassType@6296474f
+[2019-06-13 10:08:55] DEBUG Adding type registration java.lang.Class -> org.hibernate.type.ClassType@6296474f
+[2019-06-13 10:08:55] DEBUG Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@7c601d50
+[2019-06-13 10:08:55] DEBUG Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@7c601d50
+[2019-06-13 10:08:55] DEBUG Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@4d499d65
+[2019-06-13 10:08:55] DEBUG Adding type registration binary -> org.hibernate.type.BinaryType@4b0b64cc
+[2019-06-13 10:08:55] DEBUG Adding type registration byte[] -> org.hibernate.type.BinaryType@4b0b64cc
+[2019-06-13 10:08:55] DEBUG Adding type registration [B -> org.hibernate.type.BinaryType@4b0b64cc
+[2019-06-13 10:08:55] DEBUG Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@7add838c
+[2019-06-13 10:08:55] DEBUG Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@7add838c
+[2019-06-13 10:08:55] DEBUG Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@7add838c
+[2019-06-13 10:08:55] DEBUG Adding type registration row_version -> org.hibernate.type.RowVersionType@7ad1caa2
+[2019-06-13 10:08:55] DEBUG Adding type registration image -> org.hibernate.type.ImageType@444f44c5
+[2019-06-13 10:08:55] DEBUG Adding type registration characters -> org.hibernate.type.CharArrayType@57f847af
+[2019-06-13 10:08:55] DEBUG Adding type registration char[] -> org.hibernate.type.CharArrayType@57f847af
+[2019-06-13 10:08:55] DEBUG Adding type registration [C -> org.hibernate.type.CharArrayType@57f847af
+[2019-06-13 10:08:55] DEBUG Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@95eb320
+[2019-06-13 10:08:55] DEBUG Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@95eb320
+[2019-06-13 10:08:55] DEBUG Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@95eb320
+[2019-06-13 10:08:55] DEBUG Adding type registration text -> org.hibernate.type.TextType@10db6131
+[2019-06-13 10:08:55] DEBUG Adding type registration ntext -> org.hibernate.type.NTextType@506a1372
+[2019-06-13 10:08:55] DEBUG Adding type registration blob -> org.hibernate.type.BlobType@4fe64d23
+[2019-06-13 10:08:55] DEBUG Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@4fe64d23
+[2019-06-13 10:08:55] DEBUG Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@76464795
+[2019-06-13 10:08:55] DEBUG Adding type registration clob -> org.hibernate.type.ClobType@43a09ce2
+[2019-06-13 10:08:55] DEBUG Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@43a09ce2
+[2019-06-13 10:08:55] DEBUG Adding type registration nclob -> org.hibernate.type.NClobType@6f9c5048
+[2019-06-13 10:08:55] DEBUG Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@6f9c5048
+[2019-06-13 10:08:55] DEBUG Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@767f6ee7
+[2019-06-13 10:08:55] DEBUG Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@3a894088
+[2019-06-13 10:08:55] DEBUG Adding type registration serializable -> org.hibernate.type.SerializableType@67de7a99
+[2019-06-13 10:08:55] DEBUG Adding type registration object -> org.hibernate.type.ObjectType@1a0d96a5
+[2019-06-13 10:08:55] DEBUG Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@1a0d96a5
+[2019-06-13 10:08:55] DEBUG Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@3c79088e
+[2019-06-13 10:08:55] DEBUG Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@4a37191a
+[2019-06-13 10:08:55] DEBUG Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@5854a18
+[2019-06-13 10:08:55] DEBUG Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@d5556bf
+[2019-06-13 10:08:55] DEBUG Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@791c12e3
+[2019-06-13 10:08:55] DEBUG Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@b112b13
+[2019-06-13 10:08:55] DEBUG Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@24eb65e3
+[2019-06-13 10:08:55] DEBUG Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@3ac3f6f
+[2019-06-13 10:08:55] INFO  HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2019-06-13 10:08:55] DEBUG Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@5cbd94b2] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@6824b913]
+[2019-06-13 10:08:56] DEBUG Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@5cbd94b2] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@69cd7630]
+[2019-06-13 10:08:58] DEBUG drop table author if exists
+[2019-06-13 10:08:58] DEBUG drop table post if exists
+[2019-06-13 10:08:58] DEBUG drop table user if exists
+[2019-06-13 10:08:58] DEBUG drop sequence if exists hibernate_sequence
+[2019-06-13 10:08:58] DEBUG create sequence hibernate_sequence start with 1 increment by 1
+[2019-06-13 10:08:58] DEBUG create table author (id integer not null, name varchar(255), thumbnail varchar(255), primary key (id))
+[2019-06-13 10:08:58] DEBUG create table post (id integer not null, category varchar(255), text varchar(255), title varchar(255), author_id integer not null, primary key (id))
+[2019-06-13 10:08:58] DEBUG create table user (id integer not null, login varchar(255), name varchar(255), primary key (id))
+[2019-06-13 10:08:58] DEBUG alter table post add constraint FK5l759v7apba3lqguc7bp8h456 foreign key (author_id) references author
+[2019-06-13 10:08:58] INFO  HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@6f3bd37f'
+[2019-06-13 10:08:58] TRACE Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@69cd7630] for TypeConfiguration
+[2019-06-13 10:08:58] INFO  Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2019-06-13 10:09:01] INFO  Initializing ExecutorService 'applicationTaskExecutor'
+[2019-06-13 10:09:02] INFO  Tomcat started on port(s): 8098 (http) with context path ''
+[2019-06-13 10:09:02] DEBUG call next value for hibernate_sequence
+[2019-06-13 10:09:02] DEBUG insert into user (login, name, id) values (?, ?, ?)
+[2019-06-13 10:09:02] TRACE binding parameter [1] as [VARCHAR] - [javadevjournal]
+[2019-06-13 10:09:02] TRACE binding parameter [2] as [VARCHAR] - [Java Dev Journal]
+[2019-06-13 10:09:02] TRACE binding parameter [3] as [INTEGER] - [1]
+[2019-06-13 10:09:02] DEBUG call next value for hibernate_sequence
+[2019-06-13 10:09:02] DEBUG insert into user (login, name, id) values (?, ?, ?)
+[2019-06-13 10:09:02] TRACE binding parameter [1] as [VARCHAR] - [octocat]
+[2019-06-13 10:09:02] TRACE binding parameter [2] as [VARCHAR] - [The Octocat]
+[2019-06-13 10:09:02] TRACE binding parameter [3] as [INTEGER] - [2]
+[2019-06-13 10:09:02] DEBUG call next value for hibernate_sequence
+[2019-06-13 10:09:02] DEBUG insert into user (login, name, id) values (?, ?, ?)
+[2019-06-13 10:09:02] TRACE binding parameter [1] as [VARCHAR] - [guest]
+[2019-06-13 10:09:02] TRACE binding parameter [2] as [VARCHAR] - [From Another Universe]
+[2019-06-13 10:09:02] TRACE binding parameter [3] as [INTEGER] - [3]
+[2019-06-13 10:09:02] INFO  HHH000397: Using ASTQueryTranslatorFactory
+[2019-06-13 10:09:03] DEBUG select user0_.id as id1_2_, user0_.login as login2_2_, user0_.name as name3_2_ from user user0_
+[2019-06-13 10:09:03] TRACE extracted value ([id1_2_] : [INTEGER]) - [1]
+[2019-06-13 10:09:03] TRACE extracted value ([login2_2_] : [VARCHAR]) - [javadevjournal]
+[2019-06-13 10:09:03] TRACE extracted value ([name3_2_] : [VARCHAR]) - [Java Dev Journal]
+[2019-06-13 10:09:03] TRACE extracted value ([id1_2_] : [INTEGER]) - [2]
+[2019-06-13 10:09:03] TRACE extracted value ([login2_2_] : [VARCHAR]) - [octocat]
+[2019-06-13 10:09:03] TRACE extracted value ([name3_2_] : [VARCHAR]) - [The Octocat]
+[2019-06-13 10:09:03] TRACE extracted value ([id1_2_] : [INTEGER]) - [3]
+[2019-06-13 10:09:03] TRACE extracted value ([login2_2_] : [VARCHAR]) - [guest]
+[2019-06-13 10:09:03] TRACE extracted value ([name3_2_] : [VARCHAR]) - [From Another Universe]
+[2019-06-13 10:09:03] DEBUG call next value for hibernate_sequence
+[2019-06-13 10:09:03] DEBUG insert into author (name, thumbnail, id) values (?, ?, ?)
+[2019-06-13 10:09:03] TRACE binding parameter [1] as [VARCHAR] - [Lorenzo Lamas]
+[2019-06-13 10:09:03] TRACE binding parameter [2] as [VARCHAR] - [Lorenzo Garabatero]
+[2019-06-13 10:09:03] TRACE binding parameter [3] as [INTEGER] - [4]
+[2019-06-13 10:09:03] DEBUG call next value for hibernate_sequence
+[2019-06-13 10:09:03] DEBUG insert into author (name, thumbnail, id) values (?, ?, ?)
+[2019-06-13 10:09:03] TRACE binding parameter [1] as [VARCHAR] - [Alejandro Cea]
+[2019-06-13 10:09:03] TRACE binding parameter [2] as [VARCHAR] - [Thanos Panter]
+[2019-06-13 10:09:03] TRACE binding parameter [3] as [INTEGER] - [5]
+[2019-06-13 10:09:03] DEBUG call next value for hibernate_sequence
+[2019-06-13 10:09:03] DEBUG insert into author (name, thumbnail, id) values (?, ?, ?)
+[2019-06-13 10:09:03] TRACE binding parameter [1] as [VARCHAR] - [Osmaro Silva]
+[2019-06-13 10:09:03] TRACE binding parameter [2] as [VARCHAR] - [El chief]
+[2019-06-13 10:09:03] TRACE binding parameter [3] as [INTEGER] - [6]
+[2019-06-13 10:09:03] DEBUG select author0_.id as id1_0_, author0_.name as name2_0_, author0_.thumbnail as thumbnai3_0_ from author author0_
+[2019-06-13 10:09:03] TRACE extracted value ([id1_0_] : [INTEGER]) - [4]
+[2019-06-13 10:09:03] TRACE extracted value ([name2_0_] : [VARCHAR]) - [Lorenzo Lamas]
+[2019-06-13 10:09:03] TRACE extracted value ([thumbnai3_0_] : [VARCHAR]) - [Lorenzo Garabatero]
+[2019-06-13 10:09:03] TRACE extracted value ([id1_0_] : [INTEGER]) - [5]
+[2019-06-13 10:09:03] TRACE extracted value ([name2_0_] : [VARCHAR]) - [Alejandro Cea]
+[2019-06-13 10:09:03] TRACE extracted value ([thumbnai3_0_] : [VARCHAR]) - [Thanos Panter]
+[2019-06-13 10:09:03] TRACE extracted value ([id1_0_] : [INTEGER]) - [6]
+[2019-06-13 10:09:03] TRACE extracted value ([name2_0_] : [VARCHAR]) - [Osmaro Silva]
+[2019-06-13 10:09:03] TRACE extracted value ([thumbnai3_0_] : [VARCHAR]) - [El chief]
+[2019-06-13 10:09:03] TRACE Created collection wrapper: [com.htc.ea.graphqldemo.domain.model.Author.postList#4]
+[2019-06-13 10:09:03] TRACE Created collection wrapper: [com.htc.ea.graphqldemo.domain.model.Author.postList#5]
+[2019-06-13 10:09:03] TRACE Created collection wrapper: [com.htc.ea.graphqldemo.domain.model.Author.postList#6]
+[2019-06-13 10:09:03] DEBUG select postlist0_.author_id as author_i5_1_0_, postlist0_.id as id1_1_0_, postlist0_.id as id1_1_1_, postlist0_.author_id as author_i5_1_1_, postlist0_.category as category2_1_1_, postlist0_.text as text3_1_1_, postlist0_.title as title4_1_1_ from post postlist0_ where postlist0_.author_id=?
+[2019-06-13 10:09:03] TRACE binding parameter [1] as [INTEGER] - [6]
+[2019-06-13 10:09:03] DEBUG select postlist0_.author_id as author_i5_1_0_, postlist0_.id as id1_1_0_, postlist0_.id as id1_1_1_, postlist0_.author_id as author_i5_1_1_, postlist0_.category as category2_1_1_, postlist0_.text as text3_1_1_, postlist0_.title as title4_1_1_ from post postlist0_ where postlist0_.author_id=?
+[2019-06-13 10:09:03] TRACE binding parameter [1] as [INTEGER] - [5]
+[2019-06-13 10:09:03] DEBUG select postlist0_.author_id as author_i5_1_0_, postlist0_.id as id1_1_0_, postlist0_.id as id1_1_1_, postlist0_.author_id as author_i5_1_1_, postlist0_.category as category2_1_1_, postlist0_.text as text3_1_1_, postlist0_.title as title4_1_1_ from post postlist0_ where postlist0_.author_id=?
+[2019-06-13 10:09:03] TRACE binding parameter [1] as [INTEGER] - [4]
+[2019-06-13 10:10:22] DEBUG select post0_.id as id1_1_, post0_.author_id as author_i5_1_, post0_.category as category2_1_, post0_.text as text3_1_, post0_.title as title4_1_ from post post0_
+[2019-06-13 10:10:23] DEBUG select post0_.id as id1_1_, post0_.author_id as author_i5_1_, post0_.category as category2_1_, post0_.text as text3_1_, post0_.title as title4_1_ from post post0_
+[2019-06-13 10:10:23] DEBUG select author0_.id as id1_0_0_, author0_.name as name2_0_0_, author0_.thumbnail as thumbnai3_0_0_, postlist1_.author_id as author_i5_1_1_, postlist1_.id as id1_1_1_, postlist1_.id as id1_1_2_, postlist1_.author_id as author_i5_1_2_, postlist1_.category as category2_1_2_, postlist1_.text as text3_1_2_, postlist1_.title as title4_1_2_ from author author0_ left outer join post postlist1_ on author0_.id=postlist1_.author_id where author0_.id=?
+[2019-06-13 10:10:23] TRACE binding parameter [1] as [INTEGER] - [5]
+[2019-06-13 10:10:23] TRACE extracted value ([id1_1_2_] : [INTEGER]) - [null]
+[2019-06-13 10:10:23] TRACE extracted value ([name2_0_0_] : [VARCHAR]) - [Alejandro Cea]
+[2019-06-13 10:10:23] TRACE extracted value ([thumbnai3_0_0_] : [VARCHAR]) - [Thanos Panter]
+[2019-06-13 10:10:23] TRACE extracted value ([author_i5_1_1_] : [INTEGER]) - [null]
+[2019-06-13 10:10:55] DEBUG select author0_.id as id1_0_0_, author0_.name as name2_0_0_, author0_.thumbnail as thumbnai3_0_0_, postlist1_.author_id as author_i5_1_1_, postlist1_.id as id1_1_1_, postlist1_.id as id1_1_2_, postlist1_.author_id as author_i5_1_2_, postlist1_.category as category2_1_2_, postlist1_.text as text3_1_2_, postlist1_.title as title4_1_2_ from author author0_ left outer join post postlist1_ on author0_.id=postlist1_.author_id where author0_.id=?
+[2019-06-13 10:10:55] TRACE binding parameter [1] as [INTEGER] - [6]
+[2019-06-13 10:10:55] TRACE extracted value ([id1_1_2_] : [INTEGER]) - [null]
+[2019-06-13 10:10:55] TRACE extracted value ([name2_0_0_] : [VARCHAR]) - [Osmaro Silva]
+[2019-06-13 10:10:55] TRACE extracted value ([thumbnai3_0_0_] : [VARCHAR]) - [El chief]
+[2019-06-13 10:10:55] TRACE extracted value ([author_i5_1_1_] : [INTEGER]) - [null]
+[2019-06-13 10:10:55] DEBUG call next value for hibernate_sequence
+[2019-06-13 10:10:55] DEBUG insert into post (author_id, category, text, title, id) values (?, ?, ?, ?, ?)
+[2019-06-13 10:10:55] TRACE binding parameter [1] as [INTEGER] - [6]
+[2019-06-13 10:10:55] TRACE binding parameter [2] as [VARCHAR] - [QA]
+[2019-06-13 10:10:55] TRACE binding parameter [3] as [VARCHAR] - [Developing Fuse & Camel]
+[2019-06-13 10:10:55] TRACE binding parameter [4] as [VARCHAR] - [Fuse integration c/Karaf]
+[2019-06-13 10:10:55] TRACE binding parameter [5] as [INTEGER] - [7]
+[2019-06-13 10:37:19] DEBUG select user0_.id as id1_2_, user0_.login as login2_2_, user0_.name as name3_2_ from user user0_
+[2019-06-13 10:37:19] TRACE extracted value ([id1_2_] : [INTEGER]) - [1]
+[2019-06-13 10:37:19] TRACE extracted value ([login2_2_] : [VARCHAR]) - [javadevjournal]
+[2019-06-13 10:37:19] TRACE extracted value ([name3_2_] : [VARCHAR]) - [Java Dev Journal]
+[2019-06-13 10:37:19] TRACE extracted value ([id1_2_] : [INTEGER]) - [2]
+[2019-06-13 10:37:19] TRACE extracted value ([login2_2_] : [VARCHAR]) - [octocat]
+[2019-06-13 10:37:19] TRACE extracted value ([name3_2_] : [VARCHAR]) - [The Octocat]
+[2019-06-13 10:37:19] TRACE extracted value ([id1_2_] : [INTEGER]) - [3]
+[2019-06-13 10:37:19] TRACE extracted value ([login2_2_] : [VARCHAR]) - [guest]
+[2019-06-13 10:37:19] TRACE extracted value ([name3_2_] : [VARCHAR]) - [From Another Universe]
+[2019-06-13 10:38:09] DEBUG select user0_.id as id1_2_, user0_.login as login2_2_, user0_.name as name3_2_ from user user0_
+[2019-06-13 10:38:09] TRACE extracted value ([id1_2_] : [INTEGER]) - [1]
+[2019-06-13 10:38:09] TRACE extracted value ([login2_2_] : [VARCHAR]) - [javadevjournal]
+[2019-06-13 10:38:09] TRACE extracted value ([name3_2_] : [VARCHAR]) - [Java Dev Journal]
+[2019-06-13 10:38:09] TRACE extracted value ([id1_2_] : [INTEGER]) - [2]
+[2019-06-13 10:38:09] TRACE extracted value ([login2_2_] : [VARCHAR]) - [octocat]
+[2019-06-13 10:38:09] TRACE extracted value ([name3_2_] : [VARCHAR]) - [The Octocat]
+[2019-06-13 10:38:09] TRACE extracted value ([id1_2_] : [INTEGER]) - [3]
+[2019-06-13 10:38:09] TRACE extracted value ([login2_2_] : [VARCHAR]) - [guest]
+[2019-06-13 10:38:09] TRACE extracted value ([name3_2_] : [VARCHAR]) - [From Another Universe]
+[2019-06-13 10:38:09] DEBUG select user0_.id as id1_2_0_, user0_.login as login2_2_0_, user0_.name as name3_2_0_ from user user0_ where user0_.id=?
+[2019-06-13 10:38:09] TRACE binding parameter [1] as [INTEGER] - [4]
+[2019-06-13 10:38:36] DEBUG select user0_.id as id1_2_, user0_.login as login2_2_, user0_.name as name3_2_ from user user0_
+[2019-06-13 10:38:36] TRACE extracted value ([id1_2_] : [INTEGER]) - [1]
+[2019-06-13 10:38:36] TRACE extracted value ([login2_2_] : [VARCHAR]) - [javadevjournal]
+[2019-06-13 10:38:36] TRACE extracted value ([name3_2_] : [VARCHAR]) - [Java Dev Journal]
+[2019-06-13 10:38:36] TRACE extracted value ([id1_2_] : [INTEGER]) - [2]
+[2019-06-13 10:38:36] TRACE extracted value ([login2_2_] : [VARCHAR]) - [octocat]
+[2019-06-13 10:38:36] TRACE extracted value ([name3_2_] : [VARCHAR]) - [The Octocat]
+[2019-06-13 10:38:36] TRACE extracted value ([id1_2_] : [INTEGER]) - [3]
+[2019-06-13 10:38:36] TRACE extracted value ([login2_2_] : [VARCHAR]) - [guest]
+[2019-06-13 10:38:36] TRACE extracted value ([name3_2_] : [VARCHAR]) - [From Another Universe]
+[2019-06-13 10:38:36] DEBUG select user0_.id as id1_2_0_, user0_.login as login2_2_0_, user0_.name as name3_2_0_ from user user0_ where user0_.id=?
+[2019-06-13 10:38:36] TRACE binding parameter [1] as [INTEGER] - [3]
+[2019-06-13 10:38:36] TRACE extracted value ([login2_2_0_] : [VARCHAR]) - [guest]
+[2019-06-13 10:38:36] TRACE extracted value ([name3_2_0_] : [VARCHAR]) - [From Another Universe]
+[2019-06-13 10:39:02] DEBUG select count(*) as col_0_0_ from user user0_
+[2019-06-13 10:39:02] TRACE extracted value ([col_0_0_] : [BIGINT]) - [3]
+[2019-06-13 10:39:02] DEBUG select user0_.id as id1_2_, user0_.login as login2_2_, user0_.name as name3_2_ from user user0_ where user0_.id in (? , ? , ?)
+[2019-06-13 10:39:02] TRACE binding parameter [1] as [INTEGER] - [1]
+[2019-06-13 10:39:02] TRACE binding parameter [2] as [INTEGER] - [2]
+[2019-06-13 10:39:02] TRACE binding parameter [3] as [INTEGER] - [3]
+[2019-06-13 10:39:02] TRACE extracted value ([id1_2_] : [INTEGER]) - [1]
+[2019-06-13 10:39:02] TRACE extracted value ([login2_2_] : [VARCHAR]) - [javadevjournal]
+[2019-06-13 10:39:02] TRACE extracted value ([name3_2_] : [VARCHAR]) - [Java Dev Journal]
+[2019-06-13 10:39:02] TRACE extracted value ([id1_2_] : [INTEGER]) - [2]
+[2019-06-13 10:39:02] TRACE extracted value ([login2_2_] : [VARCHAR]) - [octocat]
+[2019-06-13 10:39:02] TRACE extracted value ([name3_2_] : [VARCHAR]) - [The Octocat]
+[2019-06-13 10:39:02] TRACE extracted value ([id1_2_] : [INTEGER]) - [3]
+[2019-06-13 10:39:02] TRACE extracted value ([login2_2_] : [VARCHAR]) - [guest]
+[2019-06-13 10:39:02] TRACE extracted value ([name3_2_] : [VARCHAR]) - [From Another Universe]
+[2019-06-13 10:39:02] DEBUG select user0_.id as id1_2_0_, user0_.login as login2_2_0_, user0_.name as name3_2_0_ from user user0_ where user0_.id=?
+[2019-06-13 10:39:02] TRACE binding parameter [1] as [INTEGER] - [3]
+[2019-06-13 10:39:02] TRACE extracted value ([login2_2_0_] : [VARCHAR]) - [guest]
+[2019-06-13 10:39:02] TRACE extracted value ([name3_2_0_] : [VARCHAR]) - [From Another Universe]
+[2019-06-13 10:39:11] DEBUG select user0_.id as id1_2_, user0_.login as login2_2_, user0_.name as name3_2_ from user user0_ where user0_.id in (?)
+[2019-06-13 10:39:11] TRACE binding parameter [1] as [INTEGER] - [1]
+[2019-06-13 10:39:11] TRACE extracted value ([id1_2_] : [INTEGER]) - [1]
+[2019-06-13 10:39:11] TRACE extracted value ([login2_2_] : [VARCHAR]) - [javadevjournal]
+[2019-06-13 10:39:11] TRACE extracted value ([name3_2_] : [VARCHAR]) - [Java Dev Journal]
+[2019-06-13 10:39:11] DEBUG select user0_.id as id1_2_0_, user0_.login as login2_2_0_, user0_.name as name3_2_0_ from user user0_ where user0_.id=?
+[2019-06-13 10:39:11] TRACE binding parameter [1] as [INTEGER] - [3]
+[2019-06-13 10:39:11] TRACE extracted value ([login2_2_0_] : [VARCHAR]) - [guest]
+[2019-06-13 10:39:11] TRACE extracted value ([name3_2_0_] : [VARCHAR]) - [From Another Universe]
+[2019-06-13 10:39:24] DEBUG select user0_.id as id1_2_, user0_.login as login2_2_, user0_.name as name3_2_ from user user0_ where user0_.id in (? , ?)
+[2019-06-13 10:39:24] TRACE binding parameter [1] as [INTEGER] - [1]
+[2019-06-13 10:39:24] TRACE binding parameter [2] as [INTEGER] - [2]
+[2019-06-13 10:39:24] TRACE extracted value ([id1_2_] : [INTEGER]) - [1]
+[2019-06-13 10:39:24] TRACE extracted value ([login2_2_] : [VARCHAR]) - [javadevjournal]
+[2019-06-13 10:39:24] TRACE extracted value ([name3_2_] : [VARCHAR]) - [Java Dev Journal]
+[2019-06-13 10:39:24] TRACE extracted value ([id1_2_] : [INTEGER]) - [2]
+[2019-06-13 10:39:24] TRACE extracted value ([login2_2_] : [VARCHAR]) - [octocat]
+[2019-06-13 10:39:24] TRACE extracted value ([name3_2_] : [VARCHAR]) - [The Octocat]
+[2019-06-13 10:39:24] DEBUG select user0_.id as id1_2_0_, user0_.login as login2_2_0_, user0_.name as name3_2_0_ from user user0_ where user0_.id=?
+[2019-06-13 10:39:24] TRACE binding parameter [1] as [INTEGER] - [3]
+[2019-06-13 10:39:24] TRACE extracted value ([login2_2_0_] : [VARCHAR]) - [guest]
+[2019-06-13 10:39:24] TRACE extracted value ([name3_2_0_] : [VARCHAR]) - [From Another Universe]
+[2019-06-13 10:39:35] DEBUG select user0_.id as id1_2_, user0_.login as login2_2_, user0_.name as name3_2_ from user user0_ where user0_.id in (?)
+[2019-06-13 10:39:35] TRACE binding parameter [1] as [INTEGER] - [2]
+[2019-06-13 10:39:35] TRACE extracted value ([id1_2_] : [INTEGER]) - [2]
+[2019-06-13 10:39:35] TRACE extracted value ([login2_2_] : [VARCHAR]) - [octocat]
+[2019-06-13 10:39:35] TRACE extracted value ([name3_2_] : [VARCHAR]) - [The Octocat]
+[2019-06-13 10:39:35] DEBUG select user0_.id as id1_2_0_, user0_.login as login2_2_0_, user0_.name as name3_2_0_ from user user0_ where user0_.id=?
+[2019-06-13 10:39:35] TRACE binding parameter [1] as [INTEGER] - [3]
+[2019-06-13 10:39:35] TRACE extracted value ([login2_2_0_] : [VARCHAR]) - [guest]
+[2019-06-13 10:39:35] TRACE extracted value ([name3_2_0_] : [VARCHAR]) - [From Another Universe]
+[2019-06-13 10:39:58] DEBUG select user0_.id as id1_2_, user0_.login as login2_2_, user0_.name as name3_2_ from user user0_ where user0_.id in (? , ? , ?)
+[2019-06-13 10:39:58] TRACE binding parameter [1] as [INTEGER] - [2]
+[2019-06-13 10:39:58] TRACE binding parameter [2] as [INTEGER] - [3]
+[2019-06-13 10:39:58] TRACE binding parameter [3] as [INTEGER] - [4]
+[2019-06-13 10:39:58] TRACE extracted value ([id1_2_] : [INTEGER]) - [2]
+[2019-06-13 10:39:58] TRACE extracted value ([login2_2_] : [VARCHAR]) - [octocat]
+[2019-06-13 10:39:58] TRACE extracted value ([name3_2_] : [VARCHAR]) - [The Octocat]
+[2019-06-13 10:39:58] TRACE extracted value ([id1_2_] : [INTEGER]) - [3]
+[2019-06-13 10:39:58] TRACE extracted value ([login2_2_] : [VARCHAR]) - [guest]
+[2019-06-13 10:39:58] TRACE extracted value ([name3_2_] : [VARCHAR]) - [From Another Universe]
+[2019-06-13 10:39:58] DEBUG select user0_.id as id1_2_0_, user0_.login as login2_2_0_, user0_.name as name3_2_0_ from user user0_ where user0_.id=?
+[2019-06-13 10:39:58] TRACE binding parameter [1] as [INTEGER] - [3]
+[2019-06-13 10:39:58] TRACE extracted value ([login2_2_0_] : [VARCHAR]) - [guest]
+[2019-06-13 10:39:58] TRACE extracted value ([name3_2_0_] : [VARCHAR]) - [From Another Universe]
+[2019-06-13 10:40:19] DEBUG select count(*) as col_0_0_ from user user0_
+[2019-06-13 10:40:19] TRACE extracted value ([col_0_0_] : [BIGINT]) - [3]
+[2019-06-13 10:40:19] DEBUG select user0_.id as id1_2_, user0_.login as login2_2_, user0_.name as name3_2_ from user user0_ where user0_.id in (? , ?)
+[2019-06-13 10:40:19] TRACE binding parameter [1] as [INTEGER] - [2]
+[2019-06-13 10:40:19] TRACE binding parameter [2] as [INTEGER] - [3]
+[2019-06-13 10:40:19] TRACE extracted value ([id1_2_] : [INTEGER]) - [2]
+[2019-06-13 10:40:19] TRACE extracted value ([login2_2_] : [VARCHAR]) - [octocat]
+[2019-06-13 10:40:19] TRACE extracted value ([name3_2_] : [VARCHAR]) - [The Octocat]
+[2019-06-13 10:40:19] TRACE extracted value ([id1_2_] : [INTEGER]) - [3]
+[2019-06-13 10:40:19] TRACE extracted value ([login2_2_] : [VARCHAR]) - [guest]
+[2019-06-13 10:40:19] TRACE extracted value ([name3_2_] : [VARCHAR]) - [From Another Universe]
+[2019-06-13 10:40:19] DEBUG select user0_.id as id1_2_0_, user0_.login as login2_2_0_, user0_.name as name3_2_0_ from user user0_ where user0_.id=?
+[2019-06-13 10:40:19] TRACE binding parameter [1] as [INTEGER] - [3]
+[2019-06-13 10:40:19] TRACE extracted value ([login2_2_0_] : [VARCHAR]) - [guest]
+[2019-06-13 10:40:19] TRACE extracted value ([name3_2_0_] : [VARCHAR]) - [From Another Universe]
+[2019-06-13 10:41:48] DEBUG select count(*) as col_0_0_ from user user0_
+[2019-06-13 10:41:48] TRACE extracted value ([col_0_0_] : [BIGINT]) - [3]
+[2019-06-13 10:41:48] DEBUG select user0_.id as id1_2_, user0_.login as login2_2_, user0_.name as name3_2_ from user user0_ where user0_.id in (? , ?)
+[2019-06-13 10:41:48] TRACE binding parameter [1] as [INTEGER] - [2]
+[2019-06-13 10:41:48] TRACE binding parameter [2] as [INTEGER] - [3]
+[2019-06-13 10:41:48] TRACE extracted value ([id1_2_] : [INTEGER]) - [2]
+[2019-06-13 10:41:48] TRACE extracted value ([login2_2_] : [VARCHAR]) - [octocat]
+[2019-06-13 10:41:48] TRACE extracted value ([name3_2_] : [VARCHAR]) - [The Octocat]
+[2019-06-13 10:41:48] TRACE extracted value ([id1_2_] : [INTEGER]) - [3]
+[2019-06-13 10:41:48] TRACE extracted value ([login2_2_] : [VARCHAR]) - [guest]
+[2019-06-13 10:41:48] TRACE extracted value ([name3_2_] : [VARCHAR]) - [From Another Universe]
+[2019-06-13 10:41:48] DEBUG select user0_.id as id1_2_0_, user0_.login as login2_2_0_, user0_.name as name3_2_0_ from user user0_ where user0_.id=?
+[2019-06-13 10:41:48] TRACE binding parameter [1] as [INTEGER] - [3]
+[2019-06-13 10:41:48] TRACE extracted value ([login2_2_0_] : [VARCHAR]) - [guest]
+[2019-06-13 10:41:48] TRACE extracted value ([name3_2_0_] : [VARCHAR]) - [From Another Universe]
+[2019-06-13 10:47:52] DEBUG select user0_.id as id1_2_, user0_.login as login2_2_, user0_.name as name3_2_ from user user0_
+[2019-06-13 10:47:52] TRACE extracted value ([id1_2_] : [INTEGER]) - [1]
+[2019-06-13 10:47:52] TRACE extracted value ([login2_2_] : [VARCHAR]) - [javadevjournal]
+[2019-06-13 10:47:52] TRACE extracted value ([name3_2_] : [VARCHAR]) - [Java Dev Journal]
+[2019-06-13 10:47:52] TRACE extracted value ([id1_2_] : [INTEGER]) - [2]
+[2019-06-13 10:47:52] TRACE extracted value ([login2_2_] : [VARCHAR]) - [octocat]
+[2019-06-13 10:47:52] TRACE extracted value ([name3_2_] : [VARCHAR]) - [The Octocat]
+[2019-06-13 10:47:52] TRACE extracted value ([id1_2_] : [INTEGER]) - [3]
+[2019-06-13 10:47:52] TRACE extracted value ([login2_2_] : [VARCHAR]) - [guest]
+[2019-06-13 10:47:52] TRACE extracted value ([name3_2_] : [VARCHAR]) - [From Another Universe]
+[2019-06-13 10:47:52] DEBUG select user0_.id as id1_2_0_, user0_.login as login2_2_0_, user0_.name as name3_2_0_ from user user0_ where user0_.id=?
+[2019-06-13 10:47:52] TRACE binding parameter [1] as [INTEGER] - [4]

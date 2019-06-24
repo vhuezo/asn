@@ -1,0 +1,806 @@
+[2019-06-13 10:08:42] INFO  Starting Application on JAVASPRING-SR with PID 10968 (D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service\bin\main started by STANLEY in D:\devsoft\Projects-TigoBO-TSB\tigo-bo-sources-mcs\apps\sv-htc-inframcs-project\htc-ea-infra-testing\demos-app\graphqldemo-service)
+[2019-06-13 10:08:42] DEBUG Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+[2019-06-13 10:08:42] INFO  No active profile set, falling back to default profiles: default
+[2019-06-13 10:08:52] DEBUG Driver class org.h2.Driver found in Thread context class loader TomcatEmbeddedWebappClassLoader
+  context: ROOT
+  delegate: true
+----------> Parent Classloader:
+sun.misc.Launcher$AppClassLoader@73d16e93
+
+[2019-06-13 10:08:53] DEBUG HikariPool-1 - configuration:
+[2019-06-13 10:08:53] DEBUG allowPoolSuspension.............false
+[2019-06-13 10:08:53] DEBUG autoCommit......................true
+[2019-06-13 10:08:53] DEBUG catalog.........................none
+[2019-06-13 10:08:53] DEBUG connectionInitSql...............none
+[2019-06-13 10:08:53] DEBUG connectionTestQuery.............none
+[2019-06-13 10:08:53] DEBUG connectionTimeout...............30000
+[2019-06-13 10:08:53] DEBUG dataSource......................none
+[2019-06-13 10:08:53] DEBUG dataSourceClassName.............none
+[2019-06-13 10:08:53] DEBUG dataSourceJNDI..................none
+[2019-06-13 10:08:53] DEBUG dataSourceProperties............{password=<masked>}
+[2019-06-13 10:08:53] DEBUG driverClassName................."org.h2.Driver"
+[2019-06-13 10:08:53] DEBUG healthCheckProperties...........{}
+[2019-06-13 10:08:53] DEBUG healthCheckRegistry.............none
+[2019-06-13 10:08:53] DEBUG idleTimeout.....................600000
+[2019-06-13 10:08:53] DEBUG initializationFailTimeout.......1
+[2019-06-13 10:08:53] DEBUG isolateInternalQueries..........false
+[2019-06-13 10:08:53] DEBUG jdbcUrl.........................jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+[2019-06-13 10:08:53] DEBUG leakDetectionThreshold..........0
+[2019-06-13 10:08:53] DEBUG maxLifetime.....................1800000
+[2019-06-13 10:08:53] DEBUG maximumPoolSize.................10
+[2019-06-13 10:08:53] DEBUG metricRegistry..................none
+[2019-06-13 10:08:53] DEBUG metricsTrackerFactory...........none
+[2019-06-13 10:08:53] DEBUG minimumIdle.....................10
+[2019-06-13 10:08:53] DEBUG password........................<masked>
+[2019-06-13 10:08:53] DEBUG poolName........................"HikariPool-1"
+[2019-06-13 10:08:53] DEBUG readOnly........................false
+[2019-06-13 10:08:53] DEBUG registerMbeans..................false
+[2019-06-13 10:08:53] DEBUG scheduledExecutor...............none
+[2019-06-13 10:08:53] DEBUG schema..........................none
+[2019-06-13 10:08:53] DEBUG threadFactory...................internal
+[2019-06-13 10:08:53] DEBUG transactionIsolation............default
+[2019-06-13 10:08:53] DEBUG username........................"sa"
+[2019-06-13 10:08:53] DEBUG validationTimeout...............5000
+[2019-06-13 10:08:53] INFO  HikariPool-1 - Starting...
+[2019-06-13 10:08:53] DEBUG HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:08:53] INFO  HikariPool-1 - Start completed.
+[2019-06-13 10:08:53] DEBUG HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+[2019-06-13 10:08:53] DEBUG HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:08:53] DEBUG HikariPool-1 - Added connection conn2: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:08:53] DEBUG HikariPool-1 - Added connection conn3: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:08:53] DEBUG HikariPool-1 - Added connection conn4: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:08:53] DEBUG HikariPool-1 - Added connection conn5: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:08:53] DEBUG HikariPool-1 - Added connection conn6: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:08:53] DEBUG HikariPool-1 - Added connection conn7: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:08:53] DEBUG HikariPool-1 - Added connection conn8: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:08:53] DEBUG HikariPool-1 - Added connection conn9: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:08:53] DEBUG HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:09:02] INFO  Started Application in 22.284 seconds (JVM running for 24.996)
+[2019-06-13 10:09:03] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:09:03] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:09:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:09:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:10:22] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:10:23] INFO  Post recientes encontrados: 0
+[2019-06-13 10:10:23] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:10:23] INFO  Post encontrados: 0
+[2019-06-13 10:10:23] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:10:23] INFO  Author encontrado: Author [id=5, name=Alejandro Cea, thumbnail=Thanos Panter, posts qty=0]
+[2019-06-13 10:10:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:10:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:10:55] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:10:55] INFO  Post, creado exitosamente Post [id=7, title=Fuse integration c/Karaf, text=Developing Fuse & Camel, category=QA, authorId=6]
+[2019-06-13 10:11:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:11:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:12:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:12:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:13:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:13:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:14:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:14:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:15:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:15:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:16:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:16:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:17:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:17:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:18:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:18:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:19:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:19:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:20:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:20:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:21:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:21:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:22:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:22:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:23:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:23:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:24:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:24:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:25:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:25:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:26:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:26:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:27:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:27:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:28:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:28:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:29:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:29:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:30:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:30:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:31:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:31:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:32:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:32:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:33:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:33:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:34:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:34:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:35:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:35:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:36:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:36:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:37:19] INFO  Query: [0] to [0]
+[2019-06-13 10:37:19] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:37:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:37:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:38:09] INFO  Query: [0] to [0]
+[2019-06-13 10:38:09] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:38:09] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:38:11] DEBUG HikariPool-1 - Closing connection conn9: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 10:38:11] DEBUG HikariPool-1 - Added connection conn10: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:38:14] DEBUG HikariPool-1 - Closing connection conn7: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 10:38:14] DEBUG HikariPool-1 - Added connection conn11: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:38:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:38:24] DEBUG HikariPool-1 - Closing connection conn1: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 10:38:24] DEBUG HikariPool-1 - Added connection conn12: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:38:29] DEBUG HikariPool-1 - Closing connection conn6: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 10:38:29] DEBUG HikariPool-1 - Added connection conn13: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:38:36] INFO  Query: [0] to [0]
+[2019-06-13 10:38:36] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:38:36] DEBUG HikariPool-1 - Reset (readOnly) on connection conn0: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:38:41] DEBUG HikariPool-1 - Closing connection conn2: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 10:38:41] DEBUG HikariPool-1 - Added connection conn14: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:38:41] DEBUG HikariPool-1 - Closing connection conn5: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 10:38:41] DEBUG HikariPool-1 - Added connection conn15: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:38:44] DEBUG HikariPool-1 - Closing connection conn0: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 10:38:44] DEBUG HikariPool-1 - Added connection conn16: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:38:46] DEBUG HikariPool-1 - Closing connection conn4: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 10:38:46] DEBUG HikariPool-1 - Added connection conn17: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:38:49] DEBUG HikariPool-1 - Closing connection conn3: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 10:38:49] DEBUG HikariPool-1 - Added connection conn18: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:38:50] DEBUG HikariPool-1 - Closing connection conn8: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 10:38:50] DEBUG HikariPool-1 - Added connection conn19: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:38:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:39:02] INFO  Query: [1] to [0]
+[2019-06-13 10:39:02] DEBUG HikariPool-1 - Reset (readOnly) on connection conn10: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:39:02] DEBUG HikariPool-1 - Reset (readOnly) on connection conn10: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:39:02] DEBUG HikariPool-1 - Reset (readOnly) on connection conn10: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:39:11] INFO  Query: [1] to [1]
+[2019-06-13 10:39:11] DEBUG HikariPool-1 - Reset (readOnly) on connection conn10: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:39:11] DEBUG HikariPool-1 - Reset (readOnly) on connection conn10: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:39:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:39:24] INFO  Query: [1] to [2]
+[2019-06-13 10:39:24] DEBUG HikariPool-1 - Reset (readOnly) on connection conn10: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:39:24] DEBUG HikariPool-1 - Reset (readOnly) on connection conn10: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:39:35] INFO  Query: [2] to [2]
+[2019-06-13 10:39:35] DEBUG HikariPool-1 - Reset (readOnly) on connection conn10: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:39:35] DEBUG HikariPool-1 - Reset (readOnly) on connection conn10: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:39:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:39:58] INFO  Query: [2] to [4]
+[2019-06-13 10:39:58] DEBUG HikariPool-1 - Reset (readOnly) on connection conn10: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:39:58] DEBUG HikariPool-1 - Reset (readOnly) on connection conn10: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:40:19] INFO  Query: [2] to [1]
+[2019-06-13 10:40:19] DEBUG HikariPool-1 - Reset (readOnly) on connection conn10: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:40:19] DEBUG HikariPool-1 - Reset (readOnly) on connection conn10: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:40:19] DEBUG HikariPool-1 - Reset (readOnly) on connection conn10: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:40:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:40:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:41:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:41:48] INFO  Query: [2] to [1]
+[2019-06-13 10:41:48] DEBUG HikariPool-1 - Reset (readOnly) on connection conn10: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:41:48] DEBUG HikariPool-1 - Reset (readOnly) on connection conn10: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:41:48] DEBUG HikariPool-1 - Reset (readOnly) on connection conn10: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:41:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:42:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:42:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:43:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:43:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:44:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:44:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:45:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:45:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:46:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:46:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:47:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:47:52] INFO  Query: [0] to [0]
+[2019-06-13 10:47:52] DEBUG HikariPool-1 - Reset (readOnly) on connection conn10: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:47:52] DEBUG HikariPool-1 - Reset (readOnly) on connection conn10: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 10:47:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:48:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:48:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:49:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:49:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:50:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:50:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:51:23] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 10:51:53] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 13:52:21] WARN  HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h27s428ms471µs968ns).
+[2019-06-13 13:52:21] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 13:52:21] DEBUG HikariPool-1 - Closing connection conn10: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 13:52:21] DEBUG HikariPool-1 - Closing connection conn11: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 13:52:21] DEBUG HikariPool-1 - Closing connection conn15: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 13:52:21] DEBUG HikariPool-1 - Closing connection conn12: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 13:52:21] DEBUG HikariPool-1 - Closing connection conn13: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 13:52:21] DEBUG HikariPool-1 - Closing connection conn14: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 13:52:21] DEBUG HikariPool-1 - Closing connection conn17: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 13:52:21] DEBUG HikariPool-1 - Closing connection conn18: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 13:52:21] DEBUG HikariPool-1 - Added connection conn20: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 13:52:21] DEBUG HikariPool-1 - Closing connection conn16: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 13:52:21] DEBUG HikariPool-1 - Closing connection conn19: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 13:52:21] DEBUG HikariPool-1 - Added connection conn21: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 13:52:21] DEBUG HikariPool-1 - Added connection conn22: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 13:52:21] DEBUG HikariPool-1 - Added connection conn23: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 13:52:21] DEBUG HikariPool-1 - Added connection conn24: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 13:52:21] DEBUG HikariPool-1 - Added connection conn25: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 13:52:21] DEBUG HikariPool-1 - Added connection conn26: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 13:52:21] DEBUG HikariPool-1 - Added connection conn27: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 13:52:21] DEBUG HikariPool-1 - Added connection conn28: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 13:52:21] DEBUG HikariPool-1 - Added connection conn29: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 14:06:19] WARN  HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m30s468ms272µs83ns).
+[2019-06-13 14:06:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:06:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:07:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:07:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:08:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:08:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:09:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:09:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:10:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:10:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:11:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:11:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:12:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:12:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:13:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:13:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:14:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:14:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:15:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:15:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:16:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:16:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:17:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:17:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:18:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:18:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:19:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:19:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:20:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:20:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:21:08] DEBUG HikariPool-1 - Added connection conn30: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 14:21:08] DEBUG HikariPool-1 - Closing connection conn21: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 14:21:10] DEBUG HikariPool-1 - Closing connection conn29: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 14:21:10] DEBUG HikariPool-1 - Added connection conn31: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 14:21:10] DEBUG HikariPool-1 - Closing connection conn28: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 14:21:10] DEBUG HikariPool-1 - Added connection conn32: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 14:21:13] DEBUG HikariPool-1 - Closing connection conn27: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 14:21:13] DEBUG HikariPool-1 - Added connection conn33: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 14:21:18] DEBUG HikariPool-1 - Closing connection conn22: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 14:21:18] DEBUG HikariPool-1 - Added connection conn34: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 14:21:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:21:35] DEBUG HikariPool-1 - Closing connection conn20: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 14:21:35] DEBUG HikariPool-1 - Added connection conn35: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 14:21:38] DEBUG HikariPool-1 - Closing connection conn24: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 14:21:38] DEBUG HikariPool-1 - Added connection conn36: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 14:21:40] DEBUG HikariPool-1 - Closing connection conn25: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 14:21:40] DEBUG HikariPool-1 - Added connection conn37: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 14:21:42] DEBUG HikariPool-1 - Closing connection conn23: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 14:21:42] DEBUG HikariPool-1 - Added connection conn38: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 14:21:44] DEBUG HikariPool-1 - Closing connection conn26: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 14:21:44] DEBUG HikariPool-1 - Added connection conn39: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 14:21:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:22:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:22:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:23:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:23:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:24:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:24:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:25:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:25:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:26:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:26:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:27:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:27:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:28:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:28:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:29:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:29:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:30:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:30:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:31:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:31:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:32:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:32:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:33:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:33:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:34:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:34:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:35:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:35:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:36:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:36:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:37:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:37:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:38:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:38:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:39:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:39:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:40:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:40:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:41:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:41:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:42:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:42:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:43:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:43:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:44:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:44:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:45:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:45:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:46:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:46:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:47:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:47:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:48:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:48:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:49:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:49:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:50:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:50:35] DEBUG HikariPool-1 - Closing connection conn33: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 14:50:35] DEBUG HikariPool-1 - Added connection conn40: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 14:50:48] DEBUG HikariPool-1 - Closing connection conn30: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 14:50:48] DEBUG HikariPool-1 - Added connection conn41: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 14:50:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:50:51] DEBUG HikariPool-1 - Closing connection conn34: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 14:50:51] DEBUG HikariPool-1 - Added connection conn42: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 14:51:01] DEBUG HikariPool-1 - Closing connection conn35: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 14:51:01] DEBUG HikariPool-1 - Added connection conn43: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 14:51:06] DEBUG HikariPool-1 - Closing connection conn31: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 14:51:06] DEBUG HikariPool-1 - Added connection conn44: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 14:51:09] DEBUG HikariPool-1 - Closing connection conn32: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 14:51:09] DEBUG HikariPool-1 - Added connection conn45: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 14:51:12] DEBUG HikariPool-1 - Closing connection conn38: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 14:51:12] DEBUG HikariPool-1 - Added connection conn46: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 14:51:19] DEBUG HikariPool-1 - Closing connection conn36: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 14:51:19] DEBUG HikariPool-1 - Added connection conn47: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 14:51:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:51:33] DEBUG HikariPool-1 - Closing connection conn39: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 14:51:33] DEBUG HikariPool-1 - Added connection conn48: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 14:51:37] DEBUG HikariPool-1 - Closing connection conn37: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 14:51:37] DEBUG HikariPool-1 - Added connection conn49: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 14:51:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:52:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:52:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:53:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:53:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:54:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:54:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:55:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:55:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:56:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:56:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:57:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:57:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:58:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:58:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:59:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 14:59:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:00:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:00:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:01:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:01:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:02:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:02:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:03:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:03:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:04:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:04:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:05:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:05:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:06:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:06:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:07:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:07:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:08:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:08:49] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:09:19] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:09:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:10:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:10:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:11:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:11:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:12:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:12:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:13:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:13:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:14:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:14:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:15:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:15:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:16:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:16:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:17:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:17:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:18:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:18:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:19:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:19:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:19:55] DEBUG HikariPool-1 - Closing connection conn40: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 15:19:55] DEBUG HikariPool-1 - Added connection conn50: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 15:20:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:20:29] DEBUG HikariPool-1 - Closing connection conn41: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 15:20:29] DEBUG HikariPool-1 - Added connection conn51: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 15:20:29] DEBUG HikariPool-1 - Closing connection conn45: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 15:20:29] DEBUG HikariPool-1 - Added connection conn52: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 15:20:36] DEBUG HikariPool-1 - Closing connection conn43: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 15:20:36] DEBUG HikariPool-1 - Added connection conn53: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 15:20:45] DEBUG HikariPool-1 - Closing connection conn42: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 15:20:45] DEBUG HikariPool-1 - Added connection conn54: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 15:20:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:20:51] DEBUG HikariPool-1 - Closing connection conn48: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 15:20:51] DEBUG HikariPool-1 - Added connection conn55: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 15:20:55] DEBUG HikariPool-1 - Closing connection conn47: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 15:20:55] DEBUG HikariPool-1 - Added connection conn56: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 15:20:59] DEBUG HikariPool-1 - Closing connection conn44: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 15:20:59] DEBUG HikariPool-1 - Added connection conn57: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 15:21:08] DEBUG HikariPool-1 - Closing connection conn46: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 15:21:08] DEBUG HikariPool-1 - Added connection conn58: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 15:21:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:21:35] DEBUG HikariPool-1 - Closing connection conn49: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 15:21:35] DEBUG HikariPool-1 - Added connection conn59: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 15:21:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:22:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:22:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:23:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:23:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:24:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:24:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:25:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:25:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:26:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:26:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:27:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:27:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:28:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:28:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:29:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:29:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:30:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:30:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:31:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:31:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:32:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:32:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:33:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:33:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:34:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:34:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:35:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:35:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:36:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:36:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:37:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:37:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:38:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:38:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:39:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:39:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:40:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:40:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:41:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:41:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:42:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:42:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:43:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:43:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:44:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:44:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:45:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:45:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:46:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:46:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:47:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:47:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:48:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:48:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:49:18] DEBUG HikariPool-1 - Closing connection conn50: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 15:49:18] DEBUG HikariPool-1 - Added connection conn60: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 15:49:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:49:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:49:54] DEBUG HikariPool-1 - Closing connection conn52: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 15:49:54] DEBUG HikariPool-1 - Added connection conn61: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 15:49:57] DEBUG HikariPool-1 - Closing connection conn53: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 15:49:57] DEBUG HikariPool-1 - Added connection conn62: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 15:50:13] DEBUG HikariPool-1 - Closing connection conn54: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 15:50:13] DEBUG HikariPool-1 - Added connection conn63: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 15:50:14] DEBUG HikariPool-1 - Closing connection conn56: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 15:50:14] DEBUG HikariPool-1 - Added connection conn64: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 15:50:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:50:20] DEBUG HikariPool-1 - Closing connection conn51: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 15:50:20] DEBUG HikariPool-1 - Added connection conn65: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 15:50:38] DEBUG HikariPool-1 - Closing connection conn57: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 15:50:38] DEBUG HikariPool-1 - Added connection conn66: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 15:50:38] DEBUG HikariPool-1 - Closing connection conn55: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 15:50:38] DEBUG HikariPool-1 - Added connection conn67: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 15:50:39] DEBUG HikariPool-1 - Closing connection conn58: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 15:50:39] DEBUG HikariPool-1 - Added connection conn68: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 15:50:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:50:57] DEBUG HikariPool-1 - Closing connection conn59: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 15:50:57] DEBUG HikariPool-1 - Added connection conn69: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 15:51:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:51:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:52:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:52:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:53:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:53:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:54:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:54:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:55:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:55:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:56:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:56:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:57:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:57:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:58:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:58:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:59:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 15:59:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:00:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:00:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:01:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:01:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:02:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:02:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:03:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:03:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:04:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:04:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:05:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:05:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:06:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:06:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:07:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:07:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:08:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:08:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:09:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:09:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:10:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:10:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:11:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:11:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:12:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:12:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:13:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:13:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:14:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:14:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:15:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:15:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:16:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:16:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:17:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:17:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:18:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:18:43] DEBUG HikariPool-1 - Closing connection conn60: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 16:18:43] DEBUG HikariPool-1 - Added connection conn70: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 16:18:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:19:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:19:39] DEBUG HikariPool-1 - Closing connection conn62: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 16:19:39] DEBUG HikariPool-1 - Added connection conn71: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 16:19:50] DEBUG HikariPool-1 - Closing connection conn64: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 16:19:50] DEBUG HikariPool-1 - Added connection conn72: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 16:19:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:19:51] DEBUG HikariPool-1 - Closing connection conn61: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 16:19:51] DEBUG HikariPool-1 - Added connection conn73: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 16:19:54] DEBUG HikariPool-1 - Closing connection conn65: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 16:19:54] DEBUG HikariPool-1 - Added connection conn74: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 16:19:59] DEBUG HikariPool-1 - Closing connection conn63: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 16:19:59] DEBUG HikariPool-1 - Added connection conn75: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 16:20:07] DEBUG HikariPool-1 - Closing connection conn68: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 16:20:07] DEBUG HikariPool-1 - Added connection conn76: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 16:20:12] DEBUG HikariPool-1 - Closing connection conn67: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 16:20:12] DEBUG HikariPool-1 - Added connection conn77: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 16:20:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:20:34] DEBUG HikariPool-1 - Closing connection conn66: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 16:20:34] DEBUG HikariPool-1 - Added connection conn78: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 16:20:34] DEBUG HikariPool-1 - Closing connection conn69: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 16:20:34] DEBUG HikariPool-1 - Added connection conn79: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 16:20:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:21:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:21:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:22:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:22:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:23:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:23:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:24:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:24:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:25:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:25:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:26:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:26:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:27:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:27:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:28:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:28:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:29:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:29:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:30:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:30:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:31:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:31:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:32:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:32:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:33:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:33:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:34:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:34:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:35:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:35:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:36:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:36:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:37:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:37:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:38:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:38:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:39:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:39:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:40:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:40:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:41:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:41:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:42:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:42:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:43:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:43:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:44:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:44:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:45:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:45:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:46:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:46:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:47:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:47:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:48:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:48:43] DEBUG HikariPool-1 - Closing connection conn70: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 16:48:43] DEBUG HikariPool-1 - Added connection conn80: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 16:48:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:49:18] DEBUG HikariPool-1 - Closing connection conn75: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 16:49:18] DEBUG HikariPool-1 - Added connection conn81: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 16:49:18] DEBUG HikariPool-1 - Closing connection conn71: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 16:49:18] DEBUG HikariPool-1 - Added connection conn82: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 16:49:18] DEBUG HikariPool-1 - Closing connection conn72: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 16:49:18] DEBUG HikariPool-1 - Added connection conn83: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 16:49:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:49:28] DEBUG HikariPool-1 - Closing connection conn73: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 16:49:28] DEBUG HikariPool-1 - Added connection conn84: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 16:49:35] DEBUG HikariPool-1 - Closing connection conn74: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 16:49:35] DEBUG HikariPool-1 - Added connection conn85: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 16:49:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:49:55] DEBUG HikariPool-1 - Closing connection conn76: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 16:49:55] DEBUG HikariPool-1 - Added connection conn86: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 16:50:00] DEBUG HikariPool-1 - Closing connection conn79: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 16:50:00] DEBUG HikariPool-1 - Added connection conn87: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 16:50:02] DEBUG HikariPool-1 - Closing connection conn77: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 16:50:02] DEBUG HikariPool-1 - Added connection conn88: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 16:50:18] DEBUG HikariPool-1 - Closing connection conn78: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 16:50:18] DEBUG HikariPool-1 - Added connection conn89: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 16:50:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:50:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:51:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:51:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:52:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:52:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:53:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:53:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:54:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:54:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:55:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:55:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:56:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:56:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:57:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:57:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:58:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:58:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:59:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 16:59:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:00:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:00:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:01:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:01:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:02:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:02:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:03:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:03:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:04:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:04:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:05:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:05:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:06:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:06:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:07:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:07:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:08:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:08:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:09:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:09:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:10:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:10:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:11:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:11:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:12:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:12:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:13:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:13:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:14:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:14:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:15:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:15:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:16:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:16:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:17:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:17:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:18:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:18:34] DEBUG HikariPool-1 - Closing connection conn81: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 17:18:34] DEBUG HikariPool-1 - Added connection conn90: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 17:18:39] DEBUG HikariPool-1 - Closing connection conn80: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 17:18:39] DEBUG HikariPool-1 - Added connection conn91: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 17:18:44] DEBUG HikariPool-1 - Closing connection conn83: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 17:18:44] DEBUG HikariPool-1 - Added connection conn92: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 17:18:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:18:50] DEBUG HikariPool-1 - Closing connection conn82: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 17:18:50] DEBUG HikariPool-1 - Added connection conn93: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 17:19:01] DEBUG HikariPool-1 - Closing connection conn85: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 17:19:01] DEBUG HikariPool-1 - Added connection conn94: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 17:19:02] DEBUG HikariPool-1 - Closing connection conn84: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 17:19:02] DEBUG HikariPool-1 - Added connection conn95: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 17:19:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:19:34] DEBUG HikariPool-1 - Closing connection conn86: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 17:19:34] DEBUG HikariPool-1 - Added connection conn96: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 17:19:44] DEBUG HikariPool-1 - Closing connection conn88: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 17:19:44] DEBUG HikariPool-1 - Added connection conn97: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 17:19:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:19:56] DEBUG HikariPool-1 - Closing connection conn87: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 17:19:56] DEBUG HikariPool-1 - Added connection conn98: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 17:20:01] DEBUG HikariPool-1 - Closing connection conn89: url=jdbc:h2:mem:testdb user=SA: (connection has passed maxLifetime)
+[2019-06-13 17:20:01] DEBUG HikariPool-1 - Added connection conn99: url=jdbc:h2:mem:testdb user=SA
+[2019-06-13 17:20:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:20:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:21:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:21:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:22:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:22:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:23:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:23:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:24:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:24:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:25:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:25:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:26:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:26:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:27:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:27:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:28:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:28:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:29:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:29:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:30:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:30:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:31:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:31:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:32:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:32:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:33:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:33:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:34:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:34:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:35:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:35:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:36:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:36:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:37:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:37:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:38:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:38:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:39:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:39:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:40:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:40:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:41:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:41:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:42:20] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-06-13 17:42:50] DEBUG HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)

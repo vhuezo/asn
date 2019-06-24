@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+<include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+<include resource="org/springframework/boot/logging/logback/console-appender.xml"/>
+	<!--property scope="context" resource="app.properties" /-->
+	
+	<property name="CONFIGFILE_PATH_LOG" value="D:/devsoft/Projects-TigoBO-TSB/tigo-bo-sources-mcs/apps/sv-htc-inframcs-project/htc-ea-infra-testing/demos-app/graphqldemo-service/log" />
+	<property name="APP_ID" value="graphqldemo-service" />
+	<property name="ENVIRONMENT" value="development" />
+	<property name="PROD_HOME" value="${CONFIGFILE_PATH_LOG}" />
+	<property name="SERVER_PORT" value="8098" />
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+<!-- 			<Pattern> -->
+<!-- 				%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n -->
+<!-- 			</Pattern> -->
+			<Pattern>
+				%d{yyyy-MM-dd HH:mm:ss} %-5level %msg%n
+			</Pattern>			
+		</layout>
+	</appender>
+	<appender name="FILE-MCS"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${PROD_HOME}/${APP_ID}/${HOSTNAME}-${SERVER_PORT}-mcs.log</file>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<Pattern>
+				[%d{yyyy-MM-dd HH:mm:ss}] %-5level %msg%n
+			</Pattern>
+		</encoder>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- rollover daily -->
+			<fileNamePattern>${PROD_HOME}/${APP_ID}/archived/${HOSTNAME}-${SERVER_PORT}-mcs-backup.%d{yyyy-MM-dd}.%i.log
+			</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>10MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+	</appender>
+	<appender name="FILE-INFRA"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${PROD_HOME}/${APP_ID}/${HOSTNAME}-${SERVER_PORT}-infra.log</file>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<Pattern>
+				[%d{yyyy-MM-dd HH:mm:ss}] %-5level %msg%n
+			</Pattern>
+		</encoder>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- rollover daily -->
+			<fileNamePattern>${PROD_HOME}/${APP_ID}/archived/${HOSTNAME}-${SERVER_PORT}-infra-backup.%d{yyyy-MM-dd}.%i.log
+			</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy
+				class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>10MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+	</appender>
+	<!-- Send logs to both console and file audit -->
+	<logger name="com" level="debug"
+		additivity="false">
+		<appender-ref ref="FILE-MCS" />
+		<appender-ref ref="STDOUT" />
+	</logger>
+	<root name="com" level="error">
+		<appender-ref ref="FILE-INFRA" />
+		<appender-ref ref="STDOUT" />
+	</root>
+</configuration>
