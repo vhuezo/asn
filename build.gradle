@@ -64,7 +64,11 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
     compile('org.springframework.boot:spring-boot-starter-data-redis')
     //HTC-ICC
-    implementation 'com.htc.ea.core:htc-ea-core-config:0.0.1-SNAPSHOT'
+    //implementation 'com.htc.ea.core:htc-ea-core-config:0.0.1-SNAPSHOT'
+    
+    //Devops
+       implementation 'com.htc.ea.core:htc-ea-core-config:0.0.1-RELEASE'
+    
     //Others
     implementation 'redis.clients:jedis'
     //GraphQL
