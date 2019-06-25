@@ -18,7 +18,7 @@ WORKDIR $APP_BASE
 RUN chmod 755 /app && chown -R nobody:nobody /app
 
 COPY ./build/libs/*.jar $APP_BASE/$JAR_FILE
-# COPY $PROP_FILE $PROP_BASE/
+ COPY $PROP_FILE $PROP_BASE/
 # COPY *.xml $LOG_BASE/$LOG_FILE
 
 #HEALTHCHECK --interval=1m CMD  curl --fail --silent  localhost:8035/ggsn/env || exit 1
@@ -26,7 +26,7 @@ COPY ./build/libs/*.jar $APP_BASE/$JAR_FILE
 USER nobody
 
 #Command to execute the Java App Docker
-CMD java -Dserver.port=$PORT -Dapp.log=/app/log -Dapp.env=$ENVIRONMENT -Duser.timezone=America/La_Paz -jar $JAR_FILE
+CMD java -Dserver.port=$PORT -Dapp.log=/app/log -Dapp.env=$ENVIRONMENT -Dspring.config.location=$PROP_BASE/$PROP_FILE -Duser.timezone=America/La_Paz -jar $JAR_FILE 
 
 #YML = -Dspring.config.location=$PROP_BASE/$PROP_FILE
 #XML =  -Dlogging.config=$LOG_BASE/$LOG_FILE 
