@@ -54,14 +54,14 @@ test:
 #Containers
 docker:
   redis:
-    ip: localhost
-    port: 6379
+    ip: 192.168.1.75
+    port: 4379
   redis-platform:
-    ip: localhost
-    port: 6379
+    ip: 192.168.1.75
+    port: 4379
   rabbitmq-log:
-    ip: localhost
-    port: 5672
+    ip: 192.168.1.75
+    port: 4672
     user: guest
     password: guest
 cache:
