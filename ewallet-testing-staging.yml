@@ -66,9 +66,9 @@ docker:
     password: guest
 cache:
   db:
-    configentry: 0
-    list: db0
-    db0:
+    configentry: 1
+    list: db1
+    db1:
       ip: ${docker.redis-platform.ip}
       port: ${docker.redis-platform.port}
       channel:
