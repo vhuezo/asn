@@ -4,7 +4,7 @@ services:
   - docker:dind
 
 variables:
-  SERVICE_NAME: ewallet-testing
+  SERVICE_NAME: ${CI_PROJECT_NAME}
   SERVICE_PORT: 8047
 #  DOCKER_HOST: "tcp://172.28.16.3:2375"
 
@@ -48,7 +48,7 @@ build-container:
   script:
     - export DOCKER_HOST=tcp://$SERVER_SIT_HOST02:2375
     - docker login -u $SERVER_SIT_REGISTRY_USER -p $SERVER_SIT_REGISTRY_PSWD $SERVER_SIT_REGISTRY
-    - docker build --tag $SERVER_SIT_REGISTRY/htc/$SERVICE_NAME:1.$CI_PIPELINE_ID --build-arg JAR=${CI_PROJECT_NAME}.jar --build-arg YML=${CI_PROJECT_NAME}-staging.yml .
+    - docker build --tag $SERVER_SIT_REGISTRY/htc/$SERVICE_NAME:1.$CI_PIPELINE_ID --build-arg JAR=${CI_PROJECT_NAME}.jar --build-arg YML=${CI_PROJECT_NAME.yml .
 
 
 deploy-container:
