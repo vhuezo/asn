@@ -1,0 +1,93 @@
+image: docker:latest
+
+services:
+  - docker:dind
+
+variables:
+  SERVICE_NAME: ewallet-testing
+  SERVICE_PORT: 8047
+#  DOCKER_HOST: "tcp://172.28.16.3:2375"
+
+stages:
+  - quality
+  - build
+  - docker
+  - deploy
+  - deploy_staging
+  - deploy_prod
+  
+code-analysis:
+  stage: quality
+#  image: gradle:4.10.2-jdk8-alpine
+  image: gradle:4.7-jdk8-alpine
+#  image: gradle:4.10.2-jdk8
+  script: "gradle clean sonarqube -Dsonar.host.url=http://192.168.1.75:9002 -Dsonar.verbose=true -Dsonar.sourceEncoding=UTF-8 -Dsonar.login=$SONAR_TOKEN -Dsonar.gitlab.issue_filter=MINOR -Dsonar.gitlab.failure_notification_mode=exit-code -Dsonar.gitlab.project_id=$CI_PROJECT_URL"
+  only:
+    - develop
+
+
+build-jar:
+  stage: build
+  image: gradle:4.7-jdk8-alpine
+  script: "gradle clean build -x test --info"
+  only:
+    - develop
+  artifacts:
+    when: on_success
+    paths:
+      - ./build/libs/*.jar
+    expire_in: 20min
+    
+    
+build-container:
+  stage: docker
+  image: gitlab/dind:latest
+  only:
+    - develop
+#    - /^develop-.*$/
+  script:
+    - export DOCKER_HOST=tcp://$SERVER_SIT_HOST02:2375
+    - docker login -u $SERVER_SIT_REGISTRY_USER -p $SERVER_SIT_REGISTRY_PSWD $SERVER_SIT_REGISTRY
+    - docker build --tag $SERVER_SIT_REGISTRY/htc/$SERVICE_NAME:1.$CI_PIPELINE_ID --build-arg JAR=${CI_PROJECT_NAME}.jar --build-arg YML=${CI_PROJECT_NAME}-staging.yml .
+
+
+deploy-container:
+  stage: deploy
+  image: ictu/sshpass:latest
+  only:
+    - develop
+#    - /^develop-.*$/
+  script:
+    - sshpass -p $SERVER_SIT_PSWD ssh -o StrictHostKeyChecking=no $SERVER_SIT_USER@$SERVER_SIT_HOST02 'bash -s' <  run.sh $SERVICE_NAME 1.$CI_PIPELINE_ID $SERVER_SIT_REGISTRY/htc/$SERVICE_NAME $SERVICE_PORT
+
+
+.deploy-on-staging:
+  stage: deploy_staging
+  image: ictu/sshpass:latest
+  before_script:
+    - imagen_version=$(docker run --rm ictu/sshpass:latest sshpass -p $PTO_DEV_PSWD ssh -o StrictHostKeyChecking=no $PTO_DEV_USER@$PTO_DEV_HOST03 docker service ps $SERVICE_NAME  | awk '{print $3}' | sed -n 2p |  cut -d'.' -f5)
+    - echo $imagen_version
+  when: manual
+  only:
+    - master
+  script:
+        - export  DOCKER_HOST=tcp://$SERVER_SIT_HOST03:2375
+        - docker login -u $SERVER_SIT_REGISTRY_USER -p $SERVER_SIT_REGISTRY_PSWD $SERVER_SIT_REGISTRY
+        - docker pull $SERVER_SIT_REGISTRY/htc/$SERVICE_NAME:1.$imagen_version
+        - sshpass -p $SERVER_SIT_PSWD ssh -o StrictHostKeyChecking=no $SERVER_SIT_USER@$SERVER_SIT_HOST03 'bash -s' <  run.sh $SERVICE_NAME 1.$imagen_version $SERVER_SIT_REGISTRY/htc/$SERVICE_NAME $SERVICE_PORT
+
+
+deploy-on-prod:
+  stage: deploy_prod
+  image: ictu/sshpass:latest
+  before_script:
+    - imagen_version=$(docker run --rm ictu/sshpass:latest sshpass -p $SERVER_SIT_PSWD ssh -o StrictHostKeyChecking=no $SERVER_SIT_USER@$SERVER_SIT_HOST03 docker service ps $SERVICE_NAME  | awk '{print $3}' | sed -n 2p |  cut -d'.' -f5)
+    - echo $imagen_version
+  when: manual
+  only:
+    - master
+  script:
+        - export  DOCKER_HOST=tcp://$PTO_PROD_HOST03:2375
+        - docker login -u $SERVER_SIT_REGISTRY_USER -p $SERVER_SIT_REGISTRY_PSWD $SERVER_SIT_REGISTRY
+        - docker pull $SERVER_SIT_REGISTRY/htc/$SERVICE_NAME:1.$imagen_version
+        - sshpass -p $PTO_PROD_PSWD ssh -o StrictHostKeyChecking=no $PTO_PROD_USER@$PTO_PROD_HOST03 'bash -s' <  run.sh $SERVICE_NAME 1.$imagen_version $SERVER_SIT_REGISTRY/htc/$SERVICE_NAME $SERVICE_PORT
