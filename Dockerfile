@@ -35,7 +35,7 @@ COPY ./build/libs/*.jar $APP_BASE/$JAR_FILE
 USER nobody
 
 #Command to execute the Java App Docker
-CMD java -Dserver.port=$PORT -Dapp.log=/app/log -Dapp.env=$ENVIRONMENT -Dspring.config.location=$PROP_BASE/$PROP_FILE -Duser.timezone=America/El_Salvador -jar $JAR_FILE 
+CMD java -Dserver.port=$PORT -Dapplication.log=/app/log -Dapplication.env=$ENVIRONMENT -Dspring.config.location=$PROP_BASE/$PROP_FILE -Duser.timezone=America/El_Salvador -jar $JAR_FILE 
 
 #YML = -Dspring.config.location=$PROP_BASE/$PROP_FILE
 #XML =  -Dlogging.config=$LOG_BASE/$LOG_FILE 
