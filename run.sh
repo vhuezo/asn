@@ -25,7 +25,8 @@ docker service create --name $nombrecontenedor \
  --mount type=bind,src=/etc/localtime,target=/etc/localtime \
  --network microsrv \
  -p $puerto:$puerto \
- -e ENVIRONMENT=production \
+ -e ENVIRONMENT=development \
+ -e PORT=$puerto \
  --update-delay 60s \
  --update-parallelism 1 \
  --replicas 1 \
