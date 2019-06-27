@@ -1,7 +1,16 @@
 #FROM ptoreg.tigo.net.bo/htc/oracle-jdk:8u171
 #FROM registry.gitlab.com/vhuezo/oracle-jdk/centos7:8u131
-FROM registry.gitlab.com/vhuezo/oracle-jdk:latest
+#FROM registry.gitlab.com/vhuezo/oracle-jdk:latest
+
+FROM registry.gitlab.com/vhuezo/oracle-jdk/centos7/oracle-jdk:8u211
+
 #FROM registry.gitlab.com/vhuezo/oracle-jdk/centos7:8u131
+
+
+#registry.gitlab.com/vhuezo/oracle-jdk:8u211
+#registry.gitlab.com/vhuezo/oracle-jdk/centos7/oracle-jdk:8u211
+# 
+
 
 ARG JAR
 ARG YML
