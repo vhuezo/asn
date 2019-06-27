@@ -2,16 +2,13 @@
 #SpringBoot
 info:
   component: Aplicación demo SpringBoot-Starter-2.1.6, ICC-Config y GraphQL
-  version: ${application.container.version}
+  version: 1.0
 #-------------------------------------------------------------------------------
 target:
   platform: demotarget
 application:
   id: ${spring.application.name}
-  env: development
-  version: 1.0
-  container:
-    version: 1.0
+  version: ${info.version}
 server:
   port: 8098
   servlet:
