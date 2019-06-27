@@ -26,6 +26,7 @@ docker service create --name $nombrecontenedor \
  --network microsrv \
  -p $puerto:$puerto \
  -e ENVIRONMENT=development \
+ -e PORT=$puerto \
  --update-delay 60s \
  --update-parallelism 1 \
  --replicas 1 \
