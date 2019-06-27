@@ -1,6 +1,16 @@
 #FROM ptoreg.tigo.net.bo/htc/oracle-jdk:8u171
-FROM registry.gitlab.com/vhuezo/oracle-jdk/centos7:8u131
 #FROM registry.gitlab.com/vhuezo/oracle-jdk/centos7:8u131
+#FROM registry.gitlab.com/vhuezo/oracle-jdk:latest
+
+FROM registry.gitlab.com/vhuezo/oracle-jdk/centos7/oracle-jdk:8u211
+
+#FROM registry.gitlab.com/vhuezo/oracle-jdk/centos7:8u131
+
+
+#registry.gitlab.com/vhuezo/oracle-jdk:8u211
+#registry.gitlab.com/vhuezo/oracle-jdk/centos7/oracle-jdk:8u211
+# 
+
 
 ARG JAR
 ARG YML
@@ -11,20 +21,21 @@ ENV  VERSION=$VERSION \
      APP_BASE="/app/" \
      JAR_FILE=$JAR \
      LOG_FILE=logback.xml \
-   #  PROP_FILE=$YML
+     PROP_FILE=$YML
 
 WORKDIR $APP_BASE
 RUN chmod 755 /app && chown -R nobody:nobody /app
 
 COPY ./build/libs/*.jar $APP_BASE/$JAR_FILE
-# COPY $PROP_FILE $PROP_BASE/
-COPY *.xml $LOG_BASE/$LOG_FILE
+ COPY $PROP_FILE $PROP_BASE/
+# COPY *.xml $LOG_BASE/$LOG_FILE
 
 #HEALTHCHECK --interval=1m CMD  curl --fail --silent  localhost:8035/ggsn/env || exit 1
 
 USER nobody
 
-# YML = -Dspring.config.location=$PROP_BASE/$PROP_FILE
-
 #Command to execute the Java App Docker
-CMD java -Dserver.port=$PORT -Dapp.log=/app/log -Dapp.env=$ENVIRONMENT -Duser.timezone=America/La_Paz -Dlogging.config=$LOG_BASE/$LOG_FILE  -jar $JAR_FILE
+CMD java -Dserver.port=$PORT -Dapplication.log=/app/log -Dapplication.env=$ENVIRONMENT -Dspring.config.location=$PROP_BASE/$PROP_FILE -Duser.timezone=America/El_Salvador -jar $JAR_FILE 
+
+#YML = -Dspring.config.location=$PROP_BASE/$PROP_FILE
+#XML =  -Dlogging.config=$LOG_BASE/$LOG_FILE 
