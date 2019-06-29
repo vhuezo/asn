@@ -6,6 +6,7 @@ services:
 variables:
   SERVICE_NAME: ${CI_PROJECT_NAME}
   SERVICE_PORT: 8047
+  #SONAR_TOKEN: AQUI-TOKEN y quitar el Numeral.
 #  DOCKER_HOST: "tcp://172.28.16.3:2375"
 
 stages:
