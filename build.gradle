@@ -19,11 +19,11 @@ plugins {
 
 repositories {
     maven{
-            url "http://${System.getenv("NEXUS_ARTIFACT_SERVER")}:${System.getenv("NEXUS_ARTIFACT_PORT")}/repository/maven-public/"        
+            url "${System.getenv("NEXUS_ARTIFACT_SERVER")}:${System.getenv("NEXUS_ARTIFACT_PORT")}/repository/maven-public/"        
     }
     //mavenLocal()
 	maven {
-        url "http://${System.getenv("NEXUS_ARTIFACT_SERVER")}:${System.getenv("NEXUS_ARTIFACT_PORT")}/repository/maven-public/"
+        url "${System.getenv("NEXUS_ARTIFACT_SERVER")}:${System.getenv("NEXUS_ARTIFACT_PORT")}/repository/maven-public/"
     }    
 	mavenCentral()
 }
