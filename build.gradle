@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        springBootVersion = '2.1.6.RELEASE'
+        springBootVersion = '2.1.1.RELEASE'
     }
     repositories {
         mavenLocal()
@@ -10,6 +10,13 @@ buildscript {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
     }
 }
+
+//devops
+
+plugins {
+  id "org.sonarqube" version "2.7"
+}
+
 
 
 //devops
@@ -54,11 +61,6 @@ repositories {
     mavenCentral()
 }
 
-//dependencyManagement {
-//	imports {
-//		mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
-//	}
-//}
 
 
 dependencies {
@@ -67,8 +69,7 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
     compile('org.springframework.boot:spring-boot-starter-data-redis')
-    //HTC-ICC
-    //implementation 'com.htc.ea.core:htc-ea-core-config:0.0.1-SNAPSHOT'
+  
     
     //Devops
        implementation 'com.htc.ea.core:htc-ea-core-config:0.0.1-RELEASE'
