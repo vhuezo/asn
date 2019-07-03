@@ -19,13 +19,6 @@ plugins {
 
 
 
-//devops
-
-plugins {
-  id "org.sonarqube" version "2.7"
-}
-
-
 repositories {
     maven{
             url "${System.getenv("NEXUS_ARTIFACT_SERVER")}:${System.getenv("NEXUS_ARTIFACT_PORT")}/repository/maven-public/"        
@@ -36,8 +29,6 @@ repositories {
     }    
 	mavenCentral()
 }
-
-
 
 
 
